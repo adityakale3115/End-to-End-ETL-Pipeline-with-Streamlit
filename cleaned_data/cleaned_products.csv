@@ -1,0 +1,201 @@
+product_id,product_name,description,category,brand,manufacturer,price,list_price,cost,weight,dimensions,color,size,stock_quantity,stock_level,reorder_level,supplier_id,created_date,last_updated,is_active,rating
+PROD_001,Product 1,Description for product 1,clothing,BrandA,BrandA,425.49,437.58,167.7,4.99,49x22x26,Green,XL,449,184,49,SUP_05,2020-02-02,2023-05-25T18:30:00.000Z,True,0.6
+PROD_002,Product 2,Description for product 2,Home & Garden,BrandA,Brand D,79.73,610.83,129.23,,,,S,632,460,0,SUP_14,2023-06-10,2023-02-04T18:30:00.000Z,True,
+PROD_003,Product 3,,electronics,BRAND-C,,479.39,487.35,112.7,2.93,,Green,S,229,368,23,SUP_20,,2023-02-16T18:30:00.000Z,False,3.8
+PROD_004,Product 4,,electronics,,,372.5,327.99,224.72,,,White,,268,113,25,,2022-11-15,2023-10-20T18:30:00.000Z,False,1.6
+PROD_005,Product 5,Description for product 5,Toys,BrandA,,23.67,544.21,115.19,5.18,44x38x3,Green,One Size,683,254,28,,2021-09-20,2023-11-23T18:30:00.000Z,False,4.6
+PROD_006,Product 6,,Toys,Brand D,brand_b,483.71,336.53,263.57,,9x44x16,Black,L,582,430,19,SUP_05,,2023-08-08T18:30:00.000Z,False,4.7
+PROD_007,Product 7,Description for product 7,Home & Garden,brandE,,284.97,468.26,288.19,,,White,M,49,20,15,,2020-01-11,2023-02-05T18:30:00.000Z,False,
+PROD_008,Product 8,Description for product 8,clothing,,,276.17,412.53,252.63,,34x9x8,Blue,One Size,219,132,15,,,2023-01-14T18:30:00.000Z,False,0.7
+PROD_009,Product 9,Description for product 9,Toys,BrandA,,438.14,375.98,52.27,0.91,,Red,M,737,313,39,SUP_13,2022-06-22,2023-09-25T18:30:00.000Z,False,1.8
+PROD_010,Product 10,Description for product 10,Sports,,Brand D,11.0,176.45,78.39,5.43,,Blue,L,609,127,42,SUP_20,2023-09-09,2023-06-16T18:30:00.000Z,False,3.5
+PROD_011,Product 11,,Home & Garden,BRAND-C,BRAND-C,229.2,152.21,83.96,,3x30x2,,One Size,461,131,1,SUP_03,2020-07-20,2023-05-04T18:30:00.000Z,False,
+PROD_012,Product 12,,Home & Garden,brandE,,142.93,252.77,143.74,,33x25x23,Green,L,436,347,3,SUP_04,2020-07-10,2023-07-27T18:30:00.000Z,False,3.8
+PROD_013,Product 13,Description for product 13,Electronics,,,156.94,601.9,109.64,1.39,29x31x47,Black,XL,25,224,2,,2021-07-09,,False,0.5
+PROD_014,Product 14,Description for product 14,Sports,brand_b,brandE,336.47,566.26,289.89,5.58,,White,,576,101,36,SUP_05,2022-06-18,2023-12-12T18:30:00.000Z,True,
+PROD_015,Product 15,Description for product 15,CLOTHING,Brand D,BrandA,486.76,529.79,190.29,2.52,,,XL,341,153,35,SUP_18,2021-06-15,2023-07-20T18:30:00.000Z,False,
+PROD_016,Product 16,Description for product 16,Books,BRAND-C,brandE,381.96,76.02,190.74,6.6,45x24x22,Black,One Size,222,456,49,,,2023-11-11T18:30:00.000Z,True,2.5
+PROD_017,Product 17,Description for product 17,electronics,brand_b,brandE,469.48,221.4,164.71,,,,,563,194,5,,,2023-01-13T18:30:00.000Z,False,
+PROD_018,Product 18,Description for product 18,Electronics,brandE,Brand D,23.88,380.01,249.57,5.87,,White,One Size,14,193,35,,2021-12-05,2023-06-23T18:30:00.000Z,False,4.5
+PROD_019,Product 19,Description for product 19,Home & Garden,brand_b,Brand D,331.22,220.96,63.09,4.57,,Green,S,464,90,33,,2020-07-21,2023-11-08T18:30:00.000Z,False,2.3
+PROD_020,Product 20,,Home & Garden,BrandA,BrandA,60.48,376.34,47.52,,3x16x30,,L,294,0,46,,2020-01-03,2023-08-13T18:30:00.000Z,False,0.4
+PROD_021,Product 21,Description for product 21,Books,,brandE,324.31,486.31,262.43,6.0,45x30x38,Red,,781,454,6,,2023-09-19,2023-08-07T18:30:00.000Z,False,4.8
+PROD_022,Product 22,,Electronics,BRAND-C,,470.36,510.57,293.68,4.04,37x8x30,Blue,,211,69,7,SUP_09,,2023-04-24T18:30:00.000Z,False,1.7
+PROD_023,Product 23,Description for product 23,Sports,BRAND-C,Brand D,382.98,136.77,301.2,,,Red,S,659,285,24,SUP_03,,,True,0.8
+PROD_024,Product 24,Description for product 24,Books,BRAND-C,brandE,35.38,542.82,226.54,,,Blue,M,38,231,48,SUP_19,2021-04-12,,False,2.6
+PROD_025,Product 25,Description for product 25,clothing,brand_b,BRAND-C,463.24,346.88,278.7,,23x8x17,Green,XL,4,51,20,,2022-06-23,2023-12-05T18:30:00.000Z,True,
+PROD_026,Product 26,Description for product 26,CLOTHING,BRAND-C,brandE,228.85,373.71,235.94,8.56,,Black,S,176,131,5,SUP_14,2023-07-20,,False,3.5
+PROD_027,Product 27,Description for product 27,Books,,,403.89,575.2,246.06,,6x11x13,Blue,M,129,216,35,SUP_06,,2023-02-01T18:30:00.000Z,True,2.8
+PROD_028,Product 28,,electronics,Brand D,,161.61,504.0,51.99,,,,L,136,168,38,SUP_01,2023-08-13,2023-01-14T18:30:00.000Z,True,
+PROD_029,Product 29,Description for product 29,Books,brand_b,BrandA,415.08,148.04,258.62,7.75,,Black,M,212,435,41,,2022-08-24,2023-04-09T18:30:00.000Z,True,4.2
+PROD_030,Product 30,Description for product 30,Books,BRAND-C,BRAND-C,328.63,40.22,102.68,8.54,,,L,227,430,38,SUP_05,,2023-10-14T18:30:00.000Z,False,
+PROD_031,Product 31,Description for product 31,Sports,,brand_b,28.85,112.37,187.95,,47x4x35,Black,S,872,168,26,,2022-10-31,2023-11-12T18:30:00.000Z,True,0.8
+PROD_032,Product 32,Description for product 32,Home & Garden,,BRAND-C,256.97,494.31,134.1,,19x49x2,White,S,688,103,0,SUP_15,2021-03-22,2023-03-11T18:30:00.000Z,True,0.7
+PROD_033,Product 33,Description for product 33,Books,,brandE,419.81,88.59,161.08,,,Green,L,66,249,11,SUP_08,2023-06-22,,True,
+PROD_034,Product 34,Description for product 34,electronics,Brand D,brandE,424.07,197.97,199.72,,41x40x43,Green,M,469,136,33,SUP_02,2023-09-26,2023-05-27T18:30:00.000Z,False,0.2
+PROD_035,Product 35,,Electronics,BrandA,BRAND-C,387.52,319.58,38.28,3.46,,White,One Size,503,401,7,SUP_17,2023-07-06,2023-08-05T18:30:00.000Z,True,
+PROD_036,Product 36,,Sports,,brand_b,10.69,587.53,81.52,,,White,L,421,157,14,SUP_14,2021-04-08,2023-08-04T18:30:00.000Z,True,2.1
+PROD_037,Product 37,Description for product 37,CLOTHING,BRAND-C,BrandA,52.11,596.89,170.39,1.74,7x35x41,,M,668,403,42,,2021-11-30,2023-06-22T18:30:00.000Z,True,4.7
+PROD_038,Product 38,Description for product 38,electronics,Brand D,Brand D,361.96,513.32,169.33,9.34,,White,,819,183,41,SUP_10,2022-05-21,2023-02-27T18:30:00.000Z,False,4.8
+PROD_039,Product 39,,CLOTHING,brandE,BrandA,78.02,594.33,181.82,2.86,37x3x45,Red,S,715,271,2,SUP_16,2020-04-04,2023-01-12T18:30:00.000Z,False,3.1
+PROD_040,Product 40,,CLOTHING,,BRAND-C,65.32,406.32,219.22,9.47,13x50x32,Red,,890,233,36,SUP_19,2020-03-31,2023-07-18T18:30:00.000Z,False,3.7
+PROD_041,Product 41,,Toys,,brandE,255.74,513.55,49.04,,,White,S,38,368,15,SUP_08,2020-07-02,2023-04-12T18:30:00.000Z,True,4.7
+PROD_042,Product 42,Description for product 42,electronics,brand_b,brand_b,202.89,560.8,284.37,,28x9x18,Blue,M,90,11,10,,2023-05-04,2023-03-24T18:30:00.000Z,True,0.8
+PROD_043,Product 43,Description for product 43,Sports,BrandA,brandE,460.71,308.7,279.5,4.54,47x34x10,,XL,162,151,12,SUP_01,2020-05-20,2023-05-01T18:30:00.000Z,False,
+PROD_044,Product 44,,Electronics,BrandA,brand_b,230.21,517.36,27.69,3.75,3x42x17,Green,XL,93,338,40,SUP_06,2020-09-10,2023-04-14T18:30:00.000Z,False,
+PROD_045,Product 45,Description for product 45,CLOTHING,BRAND-C,,194.39,351.18,107.72,8.59,,Green,S,564,225,16,,2023-07-25,2023-03-04T18:30:00.000Z,True,4.6
+PROD_046,Product 46,Description for product 46,Sports,Brand D,brandE,252.9,280.17,174.45,,50x49x37,Blue,,233,203,16,SUP_13,2020-04-02,2023-06-14T18:30:00.000Z,False,
+PROD_047,Product 47,Description for product 47,CLOTHING,,Brand D,267.46,92.67,232.32,,,White,One Size,326,104,25,SUP_01,,2023-09-17T18:30:00.000Z,False,4.5
+PROD_048,Product 48,,Sports,BRAND-C,brandE,178.05,179.73,188.34,1.73,8x40x26,,One Size,922,12,12,,2021-06-13,2023-05-17T18:30:00.000Z,True,0.4
+PROD_049,Product 49,Description for product 49,Electronics,BrandA,BrandA,407.75,413.66,244.56,2.52,31x42x49,Blue,L,517,240,3,SUP_13,2022-04-26,,False,0.8
+PROD_050,Product 50,Description for product 50,electronics,BrandA,Brand D,393.58,388.11,275.14,4.0,,Blue,,872,121,32,,2022-06-26,2023-07-06T18:30:00.000Z,False,4.5
+PROD_051,Product 51,Description for product 51,clothing,BrandA,Brand D,422.8,52.09,300.54,10.03,,Black,One Size,728,436,45,SUP_18,2021-05-07,2023-08-03T18:30:00.000Z,True,
+PROD_052,Product 52,Description for product 52,CLOTHING,brandE,BrandA,455.35,403.84,48.07,6.71,,Blue,,267,42,1,SUP_08,2020-05-04,2023-07-24T18:30:00.000Z,True,3.6
+PROD_053,Product 53,,Electronics,,BrandA,365.77,133.61,67.43,4.53,,Blue,,374,379,38,SUP_17,2022-10-08,2023-12-03T18:30:00.000Z,False,1.4
+PROD_054,Product 54,,CLOTHING,brand_b,,354.82,309.56,261.14,3.41,,,XL,690,205,25,SUP_01,2021-07-07,2023-04-10T18:30:00.000Z,False,
+PROD_055,Product 55,Description for product 55,Sports,,BRAND-C,394.52,70.29,228.68,8.05,3x26x4,Green,,201,171,15,,2020-10-23,2023-08-07T18:30:00.000Z,False,
+PROD_056,Product 56,Description for product 56,Books,brandE,BRAND-C,353.92,60.15,296.69,8.36,,Blue,One Size,372,374,30,SUP_02,2023-01-21,2023-09-21T18:30:00.000Z,True,0.4
+PROD_057,Product 57,Description for product 57,Books,Brand D,Brand D,337.24,99.84,244.78,5.5,,Black,L,203,399,16,SUP_18,2022-01-03,,False,2.4
+PROD_058,Product 58,Description for product 58,CLOTHING,Brand D,brand_b,102.09,469.4,208.67,2.59,29x33x36,Black,L,613,451,35,SUP_02,2023-10-22,2023-09-17T18:30:00.000Z,True,3.1
+PROD_059,Product 59,Description for product 59,Home & Garden,BrandA,BRAND-C,33.65,252.52,130.84,9.73,,White,One Size,774,71,48,SUP_15,2021-01-07,,True,4.8
+PROD_060,Product 60,,Home & Garden,Brand D,Brand D,62.15,197.99,82.05,2.54,48x48x26,Blue,XL,67,132,22,SUP_01,2022-06-10,2023-06-19T18:30:00.000Z,False,4.7
+PROD_061,Product 61,Description for product 61,Toys,,Brand D,307.31,268.95,203.09,,,White,S,986,125,2,,,2023-07-12T18:30:00.000Z,True,
+PROD_062,Product 62,Description for product 62,Books,,,72.83,57.24,40.21,,40x47x23,,One Size,383,243,45,SUP_14,2020-10-24,2023-12-13T18:30:00.000Z,True,3.2
+PROD_063,Product 63,Description for product 63,Home & Garden,Brand D,Brand D,319.96,319.05,33.02,,,,,47,224,36,SUP_05,2021-11-23,2023-09-03T18:30:00.000Z,False,
+PROD_064,Product 64,,Toys,BRAND-C,BRAND-C,157.33,278.18,287.03,2.88,,Blue,,464,4,30,SUP_08,2020-07-20,2023-03-18T18:30:00.000Z,False,4.8
+PROD_065,Product 65,,Home & Garden,BrandA,Brand D,104.93,366.26,110.2,,,White,S,925,225,33,,2022-11-21,2023-07-11T18:30:00.000Z,False,
+PROD_066,Product 66,Description for product 66,CLOTHING,BRAND-C,brandE,486.9,94.02,34.43,,,Green,S,15,406,32,SUP_11,2020-10-25,2023-08-31T18:30:00.000Z,False,
+PROD_067,Product 67,Description for product 67,clothing,brand_b,brand_b,66.2,378.98,22.31,,,Blue,S,131,188,25,SUP_18,2020-06-08,2023-07-24T18:30:00.000Z,True,3.1
+PROD_068,Product 68,Description for product 68,Toys,brandE,,163.75,475.74,94.91,8.09,44x17x9,Red,,911,69,28,SUP_01,2022-05-20,,True,1.4
+PROD_069,Product 69,Description for product 69,electronics,Brand D,brandE,289.95,466.92,34.09,,6x13x21,Green,L,911,285,19,SUP_13,2023-03-05,2023-03-20T18:30:00.000Z,False,
+PROD_070,Product 70,,Sports,brandE,brand_b,162.03,127.85,62.63,5.9,,,,21,49,11,SUP_03,2021-02-06,2023-05-11T18:30:00.000Z,True,4.6
+PROD_071,Product 71,Description for product 71,Sports,BRAND-C,,430.11,529.51,87.14,7.06,43x26x35,,,235,424,40,SUP_17,2020-07-04,2023-01-25T18:30:00.000Z,True,2.2
+PROD_072,Product 72,Description for product 72,Toys,Brand D,,438.28,39.02,296.33,2.12,48x32x44,White,One Size,274,251,13,,2022-02-01,2023-04-10T18:30:00.000Z,True,2.7
+PROD_073,Product 73,Description for product 73,Electronics,,,102.15,508.57,31.31,3.66,,,M,566,71,6,SUP_10,,2023-01-20T18:30:00.000Z,False,4.6
+PROD_074,Product 74,Description for product 74,Toys,,brandE,97.43,538.51,158.74,2.63,43x48x29,,M,127,360,49,SUP_20,2023-04-05,2023-10-02T18:30:00.000Z,True,2.8
+PROD_075,Product 75,Description for product 75,clothing,brandE,brandE,504.45,566.4,111.99,2.89,2x31x29,,,446,461,29,SUP_09,,2023-11-24T18:30:00.000Z,False,4.2
+PROD_076,Product 76,,electronics,,,172.97,180.16,226.93,4.47,,,,667,176,10,,2020-01-06,2023-09-16T18:30:00.000Z,True,0.3
+PROD_077,Product 77,,Sports,Brand D,brandE,419.89,262.72,290.93,4.74,27x48x48,White,L,131,326,27,SUP_06,2021-10-16,2023-04-02T18:30:00.000Z,False,0.9
+PROD_078,Product 78,Description for product 78,CLOTHING,Brand D,BRAND-C,389.67,109.62,288.63,9.18,19x14x33,,,866,417,28,SUP_19,,2023-08-06T18:30:00.000Z,False,5.0
+PROD_079,Product 79,Description for product 79,Electronics,brand_b,brandE,439.72,84.5,231.78,,40x16x15,Black,M,386,240,41,,2020-03-12,2023-07-10T18:30:00.000Z,True,3.9
+PROD_080,Product 80,,clothing,brandE,,261.97,282.74,116.34,2.67,13x8x27,Green,L,949,445,4,,2020-08-21,2023-04-07T18:30:00.000Z,True,
+PROD_081,Product 81,Description for product 81,Home & Garden,Brand D,BrandA,391.85,449.96,134.52,,34x31x29,Blue,L,231,43,9,SUP_12,2021-10-04,2023-03-23T18:30:00.000Z,True,2.6
+PROD_082,Product 82,,electronics,BrandA,BRAND-C,328.04,208.85,204.45,,,Blue,M,525,63,31,,2020-05-19,2023-02-02T18:30:00.000Z,True,2.6
+PROD_083,Product 83,Description for product 83,electronics,BrandA,,142.14,98.34,279.39,4.17,12x46x12,,XL,343,292,20,SUP_04,2020-10-01,2023-02-17T18:30:00.000Z,True,0.5
+PROD_084,Product 84,Description for product 84,Books,brandE,,284.04,60.19,256.89,,16x8x8,Green,,151,181,7,SUP_16,2023-07-02,2023-07-11T18:30:00.000Z,True,4.0
+PROD_085,Product 85,Description for product 85,electronics,Brand D,brandE,164.45,482.86,168.48,9.67,42x21x42,,,538,201,39,SUP_17,2020-12-12,2023-12-05T18:30:00.000Z,True,1.6
+PROD_086,Product 86,Description for product 86,Electronics,BRAND-C,BrandA,78.96,240.19,49.46,,33x13x19,Black,XL,276,41,36,SUP_02,2023-02-25,2023-03-12T18:30:00.000Z,False,1.1
+PROD_087,Product 87,Description for product 87,electronics,,brandE,357.99,201.26,93.03,7.4,,Green,,341,117,38,,,2023-05-15T18:30:00.000Z,True,4.6
+PROD_088,Product 88,Description for product 88,CLOTHING,brandE,,98.02,374.84,297.53,9.51,,,S,277,259,0,SUP_08,2022-06-26,2023-02-09T18:30:00.000Z,True,
+PROD_089,Product 89,Description for product 89,Books,,BrandA,505.46,60.34,113.85,9.78,,,XL,614,497,29,,2022-11-11,2023-04-30T18:30:00.000Z,False,4.5
+PROD_090,Product 90,Description for product 90,electronics,BRAND-C,brandE,98.79,446.69,283.94,9.37,,Red,S,134,473,30,,2020-02-01,2023-02-24T18:30:00.000Z,True,4.6
+PROD_091,Product 91,Description for product 91,clothing,,Brand D,440.72,173.76,216.2,,37x41x31,,M,984,124,18,,,2023-08-16T18:30:00.000Z,True,1.1
+PROD_092,Product 92,Description for product 92,electronics,BRAND-C,brand_b,404.91,165.29,289.08,,,Black,L,352,208,12,SUP_16,2022-06-19,2023-09-08T18:30:00.000Z,True,1.7
+PROD_093,Product 93,,Sports,brand_b,,161.88,456.98,270.9,7.7,41x16x15,White,,755,7,18,SUP_02,2021-12-09,2023-09-30T18:30:00.000Z,False,1.5
+PROD_094,Product 94,,Toys,BrandA,brand_b,416.21,584.47,263.29,1.15,,Red,M,837,286,28,SUP_02,2023-04-16,2023-04-11T18:30:00.000Z,True,
+PROD_095,Product 95,,clothing,,Brand D,159.92,409.61,118.36,0.78,29x34x44,Green,XL,317,254,49,SUP_02,2020-09-05,2023-09-15T18:30:00.000Z,True,3.7
+PROD_096,Product 96,Description for product 96,Electronics,brand_b,BRAND-C,45.04,539.66,36.6,9.0,47x3x7,White,L,807,125,47,SUP_06,2023-04-16,2023-05-08T18:30:00.000Z,True,3.5
+PROD_097,Product 97,Description for product 97,Home & Garden,BRAND-C,Brand D,383.95,90.34,226.83,4.59,33x14x9,Red,XL,981,175,6,,2022-05-15,2023-09-22T18:30:00.000Z,False,3.6
+PROD_098,Product 98,,Books,,,429.62,315.73,131.21,,22x22x3,Blue,L,665,317,26,SUP_14,2022-08-25,2023-09-10T18:30:00.000Z,True,0.9
+PROD_099,Product 99,,Electronics,brand_b,,342.55,139.57,43.43,,23x41x22,Blue,One Size,711,63,40,SUP_03,2020-07-07,2023-11-05T18:30:00.000Z,False,3.9
+PROD_100,Product 100,,CLOTHING,,,269.85,56.04,286.84,5.98,21x38x37,Blue,L,721,361,27,SUP_20,2023-07-10,2023-01-04T18:30:00.000Z,False,
+PROD_101,Product 101,Description for product 101,clothing,BrandA,brand_b,367.08,25.73,96.44,,16x3x13,White,,791,167,39,SUP_19,,2023-07-14T18:30:00.000Z,False,0.5
+PROD_102,Product 102,Description for product 102,Books,,brandE,375.14,194.71,220.32,4.31,2x23x20,Black,L,684,297,43,,,2023-05-04T18:30:00.000Z,False,2.7
+PROD_103,Product 103,Description for product 103,Home & Garden,,Brand D,267.15,279.42,299.48,6.27,,Black,M,462,267,1,SUP_14,,2023-04-11T18:30:00.000Z,False,0.5
+PROD_104,Product 104,Description for product 104,Sports,brand_b,BrandA,62.19,139.72,34.38,,19x45x47,Black,L,389,415,49,SUP_13,,2023-11-26T18:30:00.000Z,True,4.4
+PROD_105,Product 105,,Electronics,Brand D,BrandA,495.59,530.74,55.41,2.62,41x9x15,Red,L,58,31,31,,2023-11-04,2023-06-24T18:30:00.000Z,False,0.0
+PROD_106,Product 106,,Toys,BRAND-C,BRAND-C,221.0,443.3,174.0,,,Green,M,734,22,10,,,2023-07-10T18:30:00.000Z,False,
+PROD_107,Product 107,,Sports,BRAND-C,Brand D,362.1,494.37,142.83,9.83,,White,L,835,485,11,,,2023-04-10T18:30:00.000Z,True,4.3
+PROD_108,Product 108,Description for product 108,Electronics,brandE,BRAND-C,182.85,466.8,238.25,,42x50x1,,L,999,478,41,,,2023-11-17T18:30:00.000Z,True,3.5
+PROD_109,Product 109,Description for product 109,Electronics,BRAND-C,,489.88,327.25,278.12,,,Red,M,669,247,16,SUP_16,2021-01-13,,True,0.2
+PROD_110,Product 110,Description for product 110,CLOTHING,Brand D,,494.34,592.45,79.23,,3x44x8,Blue,,389,296,22,SUP_02,2021-07-20,2023-12-27T18:30:00.000Z,True,0.1
+PROD_111,Product 111,Description for product 111,Books,Brand D,brandE,199.82,397.71,129.7,0.17,28x20x48,,M,742,217,33,SUP_13,2023-10-10,2023-02-10T18:30:00.000Z,False,1.0
+PROD_112,Product 112,Description for product 112,electronics,Brand D,Brand D,176.7,231.1,241.24,8.28,,Black,L,855,406,3,SUP_18,2020-04-23,2023-05-20T18:30:00.000Z,True,0.3
+PROD_113,Product 113,Description for product 113,electronics,,,362.48,439.28,202.77,7.39,30x6x21,Green,One Size,293,263,2,SUP_08,2021-02-24,2023-06-24T18:30:00.000Z,False,
+PROD_114,Product 114,Description for product 114,clothing,BrandA,Brand D,501.13,161.94,247.6,2.87,27x36x28,Green,L,336,198,39,,2023-10-10,2023-11-22T18:30:00.000Z,False,0.2
+PROD_115,Product 115,Description for product 115,clothing,BRAND-C,brand_b,506.61,193.91,8.56,2.12,4x13x49,Green,L,95,432,31,,2021-05-05,2023-10-07T18:30:00.000Z,False,1.1
+PROD_116,Product 116,Description for product 116,CLOTHING,brandE,BRAND-C,508.99,95.02,6.9,1.94,,,M,998,473,10,SUP_11,2022-10-18,2023-07-02T18:30:00.000Z,True,3.9
+PROD_117,Product 117,Description for product 117,Toys,BRAND-C,BRAND-C,387.11,613.39,86.54,1.33,,,One Size,747,314,25,,,2023-04-11T18:30:00.000Z,True,0.2
+PROD_118,Product 118,,electronics,,BrandA,211.92,74.98,9.87,8.56,11x7x17,Red,XL,483,343,11,SUP_05,2020-02-16,2023-05-18T18:30:00.000Z,True,4.6
+PROD_119,Product 119,Description for product 119,Home & Garden,brand_b,,98.55,527.7,186.69,,45x15x48,Blue,,383,289,0,SUP_14,2022-07-25,2023-03-14T18:30:00.000Z,True,
+PROD_120,Product 120,Description for product 120,Home & Garden,,brand_b,293.99,226.8,127.41,,8x33x31,Black,S,322,58,11,SUP_05,2021-04-10,2023-01-19T18:30:00.000Z,False,3.1
+PROD_121,Product 121,,electronics,,BrandA,108.37,116.52,286.97,4.81,44x11x13,,XL,778,126,0,SUP_06,2020-11-03,2023-06-22T18:30:00.000Z,False,3.6
+PROD_122,Product 122,Description for product 122,CLOTHING,brandE,,500.06,502.56,265.25,8.78,,White,,70,477,44,SUP_04,2021-07-18,2023-06-03T18:30:00.000Z,True,
+PROD_123,Product 123,Description for product 123,Books,BRAND-C,BRAND-C,390.56,240.37,225.94,,21x38x6,Red,,795,367,6,SUP_20,,2023-11-05T18:30:00.000Z,False,0.3
+PROD_124,Product 124,Description for product 124,Sports,BRAND-C,BRAND-C,308.6,169.62,198.35,,,Blue,,23,235,11,SUP_14,2020-07-20,2023-02-20T18:30:00.000Z,False,
+PROD_125,Product 125,,Books,Brand D,BRAND-C,379.36,327.93,63.91,,,Blue,S,421,340,48,SUP_13,2022-02-04,2023-08-01T18:30:00.000Z,True,
+PROD_126,Product 126,,Electronics,brandE,BRAND-C,414.13,255.08,231.73,,,White,M,300,56,44,,,,True,
+PROD_127,Product 127,Description for product 127,electronics,,brand_b,227.94,577.36,165.89,5.23,16x13x42,Blue,,790,239,33,SUP_18,2023-10-13,2023-09-12T18:30:00.000Z,True,3.1
+PROD_128,Product 128,Description for product 128,Electronics,BRAND-C,BRAND-C,69.39,469.03,199.88,,13x20x17,Black,M,331,147,0,SUP_01,2022-10-26,2023-04-25T18:30:00.000Z,False,1.9
+PROD_129,Product 129,Description for product 129,Toys,,BRAND-C,10.05,152.75,228.38,5.8,,,M,108,257,33,,2023-04-07,,False,1.7
+PROD_130,Product 130,Description for product 130,Electronics,BRAND-C,BRAND-C,397.65,489.85,142.18,4.07,,Black,XL,742,246,46,SUP_02,2022-01-12,2023-10-03T18:30:00.000Z,True,4.5
+PROD_131,Product 131,Description for product 131,Sports,,BRAND-C,404.11,570.87,20.02,2.45,5x3x4,,L,456,401,6,SUP_06,2020-11-19,2023-10-03T18:30:00.000Z,True,2.9
+PROD_132,Product 132,,Books,brand_b,BRAND-C,225.04,211.71,22.29,5.11,46x6x14,,XL,812,472,19,SUP_20,2020-05-10,,False,2.1
+PROD_133,Product 133,Description for product 133,CLOTHING,brandE,,193.73,286.45,133.54,6.61,,Blue,M,32,163,36,SUP_09,2023-05-31,2023-01-24T18:30:00.000Z,False,3.8
+PROD_134,Product 134,Description for product 134,Home & Garden,,,181.8,152.29,243.05,8.93,,White,,688,127,33,SUP_03,2020-01-21,2023-05-23T18:30:00.000Z,True,
+PROD_135,Product 135,Description for product 135,clothing,brand_b,BRAND-C,379.68,267.33,22.47,,,Blue,,85,254,9,,2022-03-23,2023-12-23T18:30:00.000Z,True,0.4
+PROD_136,Product 136,Description for product 136,Home & Garden,BrandA,brandE,229.32,220.84,43.6,,,,One Size,544,90,0,SUP_19,2023-02-14,2023-12-18T18:30:00.000Z,False,4.1
+PROD_137,Product 137,Description for product 137,Home & Garden,brandE,brand_b,319.38,549.22,191.63,,47x32x17,Black,XL,108,258,46,,,2023-04-06T18:30:00.000Z,False,
+PROD_138,Product 138,Description for product 138,Home & Garden,brandE,Brand D,489.98,392.32,286.85,3.69,30x48x5,Red,M,886,271,12,SUP_03,2022-07-27,2023-04-14T18:30:00.000Z,False,
+PROD_139,Product 139,Description for product 139,Electronics,BRAND-C,BRAND-C,59.52,542.56,33.27,,41x44x15,,L,984,48,15,SUP_07,2022-07-20,2023-03-14T18:30:00.000Z,True,3.6
+PROD_140,Product 140,Description for product 140,electronics,,BrandA,451.74,583.28,146.27,4.94,40x6x8,Red,One Size,125,333,20,,,2023-08-17T18:30:00.000Z,False,0.1
+PROD_141,Product 141,Description for product 141,electronics,brand_b,,52.73,35.75,232.64,,7x31x13,Blue,One Size,404,386,20,SUP_07,2023-09-01,2023-03-13T18:30:00.000Z,True,
+PROD_142,Product 142,,electronics,brand_b,BrandA,449.82,309.75,78.82,,,Black,,406,215,45,,2021-04-07,2023-11-19T18:30:00.000Z,True,0.3
+PROD_143,Product 143,,Toys,BrandA,BRAND-C,371.82,130.47,174.17,,,White,L,40,242,7,SUP_04,2020-10-23,2023-04-06T18:30:00.000Z,False,
+PROD_144,Product 144,Description for product 144,clothing,brandE,,94.59,15.05,71.97,6.86,,Blue,,836,3,5,SUP_05,,2023-01-24T18:30:00.000Z,True,3.4
+PROD_145,Product 145,Description for product 145,CLOTHING,,BRAND-C,71.95,87.31,164.89,,32x28x18,White,One Size,684,149,1,SUP_12,2022-06-18,2023-11-16T18:30:00.000Z,False,4.6
+PROD_146,Product 146,Description for product 146,Sports,brand_b,BRAND-C,142.61,166.59,276.13,1.16,,White,XL,836,456,44,SUP_02,2022-10-14,,True,1.9
+PROD_147,Product 147,,CLOTHING,Brand D,Brand D,172.86,374.67,248.2,,28x37x25,White,,104,65,28,SUP_15,,,False,2.8
+PROD_148,Product 148,,Sports,,Brand D,412.62,408.06,190.13,,30x50x26,White,XL,659,32,17,SUP_18,2021-10-24,2023-05-02T18:30:00.000Z,False,2.2
+PROD_149,Product 149,Description for product 149,Sports,,BrandA,107.03,441.01,267.64,,3x45x37,Red,L,123,160,42,,2021-01-12,2023-09-05T18:30:00.000Z,False,4.2
+PROD_150,Product 150,Description for product 150,Sports,BrandA,Brand D,502.19,226.54,67.34,,1x49x43,,,722,206,49,SUP_18,2023-07-07,2023-06-10T18:30:00.000Z,True,
+PROD_151,Product 151,Description for product 151,Sports,brandE,Brand D,410.47,562.95,22.46,,3x33x29,Blue,L,147,284,44,SUP_18,2020-04-23,2023-09-20T18:30:00.000Z,False,0.4
+PROD_152,Product 152,,Home & Garden,BrandA,BRAND-C,64.86,34.96,276.64,,,Red,One Size,715,25,10,SUP_06,2023-07-06,2023-05-16T18:30:00.000Z,True,2.5
+PROD_153,Product 153,Description for product 153,Toys,BrandA,BrandA,448.6,557.1,273.13,7.54,,Black,One Size,58,106,31,SUP_14,,2023-09-07T18:30:00.000Z,True,
+PROD_154,Product 154,,Books,,brand_b,151.96,562.8,253.01,7.36,8x21x37,Green,One Size,278,157,18,SUP_17,,2023-08-10T18:30:00.000Z,False,
+PROD_155,Product 155,Description for product 155,Electronics,,,89.51,369.2,123.22,,,Green,L,728,262,21,SUP_08,2022-02-23,2023-01-01T18:30:00.000Z,True,3.5
+PROD_156,Product 156,,Home & Garden,,brandE,268.0,555.0,188.04,8.97,,Blue,L,194,454,33,SUP_19,,2023-03-14T18:30:00.000Z,True,
+PROD_157,Product 157,Description for product 157,Books,,Brand D,406.49,264.51,251.54,6.89,18x26x32,Black,L,616,79,10,,,2023-03-31T18:30:00.000Z,False,0.6
+PROD_158,Product 158,Description for product 158,Toys,brandE,BRAND-C,174.94,141.06,60.15,,,Black,XL,779,142,38,SUP_02,2020-12-06,2023-03-31T18:30:00.000Z,False,2.2
+PROD_159,Product 159,Description for product 159,Electronics,BRAND-C,brandE,468.33,416.71,235.16,,,Green,,331,170,36,,2021-06-20,2023-02-03T18:30:00.000Z,False,3.1
+PROD_160,Product 160,,Electronics,brand_b,brand_b,430.62,384.92,16.01,0.46,29x16x15,,XL,846,6,5,SUP_01,2021-11-24,2023-11-02T18:30:00.000Z,True,4.5
+PROD_161,Product 161,Description for product 161,Books,brandE,brandE,325.5,379.01,150.73,,,,S,780,443,35,SUP_16,2020-08-17,2023-05-25T18:30:00.000Z,True,3.7
+PROD_162,Product 162,Description for product 162,clothing,BrandA,,73.52,557.21,180.97,5.32,,Blue,One Size,845,191,33,,2021-01-01,2023-05-15T18:30:00.000Z,False,3.2
+PROD_163,Product 163,Description for product 163,Home & Garden,BRAND-C,BrandA,269.04,462.28,290.85,,3x5x37,,One Size,388,194,32,SUP_08,2022-03-20,2023-05-20T18:30:00.000Z,True,1.8
+PROD_164,Product 164,Description for product 164,electronics,,BrandA,462.88,508.38,66.96,6.94,6x4x33,Black,,324,270,19,SUP_03,2022-12-08,2023-02-17T18:30:00.000Z,False,3.6
+PROD_165,Product 165,Description for product 165,clothing,brandE,BrandA,309.93,448.28,183.92,9.57,,,M,727,216,19,,2021-12-13,2023-10-01T18:30:00.000Z,True,1.5
+PROD_166,Product 166,,electronics,Brand D,,230.85,89.17,245.06,9.04,1x50x16,Blue,One Size,841,76,38,,2020-07-19,2023-05-17T18:30:00.000Z,False,4.5
+PROD_167,Product 167,Description for product 167,CLOTHING,brandE,Brand D,456.15,508.15,147.94,,,Blue,,523,66,21,SUP_20,2021-06-15,2023-04-26T18:30:00.000Z,True,4.8
+PROD_168,Product 168,,CLOTHING,Brand D,Brand D,459.57,127.89,61.0,,31x41x45,White,,917,377,11,SUP_01,2021-09-25,2023-08-06T18:30:00.000Z,True,2.6
+PROD_169,Product 169,Description for product 169,Sports,,brand_b,355.85,111.43,228.15,,,,One Size,815,184,37,,2020-11-21,2023-10-06T18:30:00.000Z,True,4.4
+PROD_170,Product 170,,clothing,BRAND-C,,224.26,591.33,211.09,,,Red,L,371,327,43,,2021-09-19,2023-12-04T18:30:00.000Z,False,
+PROD_171,Product 171,Description for product 171,Sports,,BrandA,173.8,564.42,130.56,5.91,,Green,,305,131,9,SUP_08,,,True,3.3
+PROD_172,Product 172,Description for product 172,CLOTHING,Brand D,,178.07,378.87,96.53,5.02,,,One Size,747,103,48,SUP_12,2021-11-11,2023-01-25T18:30:00.000Z,False,2.0
+PROD_173,Product 173,Description for product 173,electronics,,,452.84,264.2,122.9,3.46,,,L,301,134,38,SUP_08,,2023-12-17T18:30:00.000Z,False,3.8
+PROD_174,Product 174,,Sports,Brand D,,508.15,192.28,165.76,0.86,,,M,750,129,46,SUP_04,2022-10-05,2023-09-10T18:30:00.000Z,True,1.4
+PROD_175,Product 175,,electronics,Brand D,BrandA,239.7,424.66,122.77,2.38,3x5x10,White,XL,202,478,2,SUP_16,2021-01-17,2023-05-03T18:30:00.000Z,True,4.2
+PROD_176,Product 176,,Books,brand_b,brandE,427.93,299.43,87.66,4.16,,Blue,One Size,970,0,29,,2022-06-27,2023-12-11T18:30:00.000Z,False,2.1
+PROD_177,Product 177,Description for product 177,CLOTHING,BRAND-C,brandE,70.08,351.52,276.21,,44x30x43,,M,904,325,10,SUP_20,2023-08-14,,True,
+PROD_178,Product 178,Description for product 178,clothing,BRAND-C,Brand D,370.76,489.3,150.61,8.91,,,M,756,73,17,,2021-02-12,2023-05-19T18:30:00.000Z,False,1.1
+PROD_179,Product 179,,Books,brand_b,Brand D,324.39,290.18,28.3,0.43,36x9x6,White,S,335,92,40,SUP_08,2022-05-18,2023-03-12T18:30:00.000Z,False,
+PROD_180,Product 180,Description for product 180,Sports,Brand D,,158.52,255.68,182.45,,,Black,L,711,421,35,SUP_03,2021-03-20,2023-09-16T18:30:00.000Z,False,1.7
+PROD_181,Product 181,Description for product 181,Electronics,,,281.27,439.08,117.53,4.64,,Red,S,101,432,8,,2020-08-26,2023-11-04T18:30:00.000Z,True,
+PROD_182,Product 182,Description for product 182,Books,Brand D,brandE,247.57,133.1,148.11,0.11,,,,930,179,25,SUP_04,2021-07-07,2023-01-26T18:30:00.000Z,True,
+PROD_183,Product 183,,CLOTHING,brand_b,Brand D,115.89,463.57,18.21,8.31,4x3x5,Green,M,78,357,28,SUP_07,2020-08-03,,False,3.2
+PROD_184,Product 184,Description for product 184,electronics,,BrandA,372.11,312.4,251.23,5.66,,Green,XL,619,389,48,SUP_09,2022-03-11,2023-02-20T18:30:00.000Z,True,1.4
+PROD_185,Product 185,Description for product 185,Toys,Brand D,,158.51,218.7,10.91,2.98,,,,356,336,6,SUP_20,2021-07-02,,False,0.0
+PROD_186,Product 186,Description for product 186,CLOTHING,Brand D,brand_b,446.81,582.23,59.87,,,Red,,941,478,47,SUP_06,2020-04-05,2023-05-10T18:30:00.000Z,False,0.2
+PROD_187,Product 187,,electronics,BRAND-C,,479.26,104.42,225.68,8.97,48x33x15,Black,One Size,107,332,4,SUP_07,2021-06-22,,True,2.6
+PROD_188,Product 188,Description for product 188,Electronics,Brand D,BRAND-C,330.96,23.07,136.15,,,Green,L,873,377,40,SUP_07,2021-03-15,2023-01-09T18:30:00.000Z,True,0.4
+PROD_189,Product 189,,Electronics,BrandA,,196.12,40.1,117.23,,50x38x15,Red,One Size,568,104,25,SUP_18,2022-09-14,,True,1.2
+PROD_190,Product 190,,Home & Garden,BRAND-C,BrandA,159.35,409.1,93.95,4.07,,White,One Size,380,2,19,SUP_04,2022-03-10,2023-05-21T18:30:00.000Z,False,4.0
+PROD_191,Product 191,Description for product 191,CLOTHING,,,49.57,291.13,123.97,0.19,,,,585,168,24,,2021-07-03,2023-11-11T18:30:00.000Z,True,2.2
+PROD_192,Product 192,Description for product 192,electronics,BRAND-C,BrandA,372.24,399.97,174.76,4.24,,White,XL,4,165,23,SUP_12,,2023-01-11T18:30:00.000Z,False,3.0
+PROD_193,Product 193,,electronics,Brand D,brand_b,329.85,127.61,27.62,,14x32x39,Blue,One Size,127,169,21,,2023-03-15,,True,0.3
+PROD_194,Product 194,Description for product 194,Home & Garden,BRAND-C,Brand D,107.96,538.23,140.53,6.12,,,S,858,444,13,SUP_06,2023-12-15,,True,
+PROD_195,Product 195,,CLOTHING,BRAND-C,brandE,146.23,434.36,147.07,1.77,33x29x9,Blue,XL,206,335,28,,2022-07-15,2023-03-13T18:30:00.000Z,False,3.9
+PROD_196,Product 196,,electronics,Brand D,BRAND-C,492.28,386.79,220.0,0.24,33x21x34,,XL,351,253,12,SUP_19,,2023-05-26T18:30:00.000Z,False,3.8
+PROD_197,Product 197,Description for product 197,clothing,brandE,,227.37,362.94,132.64,,11x12x26,Green,,414,174,42,SUP_19,2023-10-16,2023-05-22T18:30:00.000Z,True,3.4
+PROD_198,Product 198,Description for product 198,CLOTHING,BRAND-C,brandE,347.6,96.76,296.13,9.36,28x1x32,Red,,739,419,48,SUP_18,,2023-10-03T18:30:00.000Z,True,5.0
+PROD_199,Product 199,Description for product 199,clothing,Brand D,,60.33,515.82,92.95,,,Red,,627,342,13,SUP_14,,2023-12-04T18:30:00.000Z,True,2.6
+PROD_200,Product 200,Description for product 200,Toys,brand_b,Brand D,402.51,588.03,53.72,,49x29x31,Black,S,496,476,48,,2021-08-03,2023-10-08T18:30:00.000Z,False,2.7

@@ -1,0 +1,501 @@
+customer_id,customer_name,email,alternate_phone,phone_number,address,city,state,zip_code,postal_code,registration_date,status,total_orders,total_spent,loyalty_points,preferred_payment,age,birth_date,gender,segment
+1,Charlie Brown,customer1@example.com,,,2018 Second Ave,new_york,CA,42132.0,65493-7388,2022-06-04,pending,37,1178.56,728,cash,,,M,
+2,,alice.johnson@email.com,555-1365,(555) 790-4298,2306 Pine Rd,NYC,IL,48792.0,81588-7659,2020-02-22,inactive,35,1249.07,869,credit_card,,1963-03-08,M,vip
+3,diana.prince,user3@domain.com,,,761 Second Ave,new_york,New York,45346.0,30303-2739,2020-07-10,active,31,4995.22,243,,46.0,,,
+4,frank-miller,customer4@example.com,555-6641,(555) 854-4319,915 Second Ave,NYC,TX,,,2023-07-07,active,23,2405.49,601,debit_card,,1970-04-02,M,vip
+5,,customer5@example.com,,,6904 First St,la,New York,31312.0,42679-7305,,,25,1886.76,863,debit_card,58.0,,F,vip
+6,Grace Lee,customer6@example.com,555-2278,(555) 920-3883,6588 First St,New York,New York,,,2020-05-17,inactive,28,907.39,565,credit_card,65.0,,F,new
+7,EVE WHITE,customer7@example.com,,(555) 482-4078,6333 First St,Chicago,PA,,,,active,5,3520.07,751,paypal,77.0,,M,new
+8,EVE WHITE,customer8@example.com,555-8533,,9496 Pine Rd,NYC,California,52606.0,20762-2933,,active,17,3959.15,819,debit_card,28.0,1976-05-18,,regular
+9,frank-miller,customer9@example.com,,(555) 249-5637,2194 Oak Ave,philadelphia,California,11882.0,52308-2053,2021-01-09,inactive,39,856.09,733,debit_card,61.0,,M,new
+10,jane_doe,,,(555) 975-2046,3251 First St,Phoenix,TX,82510.0,69606-4296,,pending,26,1067.0,639,cash,39.0,,F,premium
+11,Grace Lee,customer11@example.com,555-7776,(555) 500-3898,2681 Oak Ave,Houston,CA,,,2021-02-13,active,26,2931.42,599,credit_card,27.0,1984-01-25,F,new
+12,EVE WHITE,customer12@example.com,,(555) 196-3105,3466 Main St,NYC,California,33580.0,,2021-05-13,active,0,1693.54,574,paypal,52.0,1974-04-02,M,regular
+13,frank-miller,customer13@example.com,,(555) 899-9920,9231 Pine Rd,la,NY,74942.0,31685-8805,,,37,3885.41,342,paypal,,,M,
+14,Bob Wilson,customer14@example.com,555-2199,,6155 First St,chicago,CA,73897.0,81273-3181,,suspended,28,1107.09,612,credit_card,,,M,new
+15,Grace Lee,customer15@example.com,,,3745 Second Ave,la,California,,93619-6248,2021-12-17,active,2,2598.74,12,,46.0,1966-11-20,O,new
+16,frank-miller,user16@domain.com,,,4054 Main St,Chicago,New York,,68366-1091,,pending,14,3757.74,275,,57.0,,O,new
+17,EVE WHITE,customer17@example.com,555-8305,,3322 Main St,Phoenix,CA,,,,active,3,439.7,423,,59.0,,,vip
+18,Bob Wilson,customer18@example.com,,,3038 Main St,New York,PA,61057.0,,2020-03-01,inactive,16,4967.59,837,cash,73.0,,F,regular
+19,EVE WHITE,customer19@example.com,555-2544,,2032 Second Ave,philadelphia,AZ,94735.0,88989-9391,2020-09-26,active,28,1904.5,988,cash,75.0,,F,
+20,Grace Lee,customer20@example.com,,(555) 258-4430,6855 Second Ave,Phoenix,TX,33902.0,,2020-04-19,active,29,2631.87,52,,33.0,1967-07-08,O,new
+21,Grace Lee,customer21@example.com,,(555) 305-4114,2623 First St,Los Angeles,AZ,,87572-6350,,pending,38,3652.12,564,,75.0,,F,vip
+22,John Smith,customer22@example.com,555-4502,,7860 Oak Ave,New York,TX,,98907-6183,2023-10-04,suspended,16,658.19,965,debit_card,,,F,premium
+23,Bob Wilson,customer23@example.com,555-6167,(555) 563-7720,7163 Pine Rd,new_york,TX,83184.0,69617-8070,2023-12-19,,34,2223.92,491,,26.0,,F,vip
+24,EVE WHITE,customer24@example.com,,(555) 756-4164,7143 Main St,Houston,CA,,78041-2010,2021-01-25,,42,3334.18,309,credit_card,57.0,,F,
+25,John Smith,customer25@example.com,,(555) 289-7666,6804 Second Ave,NYC,AZ,94116.0,89509-1024,,inactive,34,4670.29,871,debit_card,25.0,1963-10-25,F,
+26,EVE WHITE,customer26@example.com,555-7538,,8368 First St,Chicago,IL,,30727-8255,,inactive,32,3561.15,872,,,,F,regular
+27,frank-miller,customer27@example.com,,(555) 113-2545,5422 Pine Rd,Los Angeles,California,38862.0,,,active,23,3334.98,154,credit_card,,1993-07-04,F,
+28,John Smith,customer28@example.com,,(555) 945-7307,8784 Oak Ave,Phoenix,IL,83677.0,13448-7495,2022-03-20,active,7,2287.86,280,credit_card,50.0,,,regular
+29,Grace Lee,customer29@example.com,555-5678,,3765 Main St,new_york,AZ,,24728-9340,2022-12-01,active,29,1403.63,105,credit_card,47.0,,,regular
+30,frank-miller,customer30@example.com,,,6704 Second Ave,Houston,New York,51733.0,58338-6425,2020-09-09,suspended,39,3317.46,106,paypal,,1962-12-14,F,
+31,diana.prince,customer31@example.com,,,2260 Main St,New York,IL,,71386-6432,2021-11-03,inactive,22,3790.61,868,,63.0,1973-02-18,,new
+32,,customer32@example.com,,,6559 Oak Ave,Chicago,California,,,2021-06-17,suspended,6,4791.21,242,debit_card,42.0,1992-10-22,F,new
+33,jane_doe,user33@domain.com,,,1872 Pine Rd,Houston,California,14822.0,,,active,22,3395.46,638,,68.0,,,premium
+34,henry.davis123,customer34@example.com,,,4970 First St,NYC,PA,,46681-1048,2021-12-27,,49,1404.8,33,credit_card,44.0,1972-06-10,,regular
+35,henry.davis123,user35@domain.com,,(555) 594-9295,9427 Oak Ave,New York,NY,19334.0,63373-3154,,pending,6,3233.14,538,paypal,32.0,,O,vip
+36,,customer36@example.com,,,2902 First St,philadelphia,PA,43238.0,16170-1394,,inactive,27,4387.36,991,cash,,,,
+37,,customer37@example.com,,,6408 Second Ave,NYC,AZ,92254.0,,,,1,2871.14,288,credit_card,,,M,vip
+38,diana.prince,customer38@example.com,,(555) 933-6557,8669 Oak Ave,Chicago,NY,12028.0,,2022-01-22,active,24,3238.95,890,debit_card,47.0,1978-07-18,O,premium
+39,EVE WHITE,customer39@example.com,,(555) 885-7901,1612 Second Ave,la,PA,25093.0,,2021-09-10,active,14,1967.12,654,credit_card,29.0,,F,
+40,diana.prince,customer40@example.com,,(555) 709-1300,5030 Pine Rd,chicago,CA,34200.0,96488-3831,2022-10-20,,19,3404.1,147,credit_card,,,F,regular
+41,henry.davis123,customer41@example.com,555-6464,,2842 Oak Ave,philadelphia,IL,49311.0,24821-4289,2021-02-21,suspended,17,2296.83,640,credit_card,,,,premium
+42,diana.prince,customer42@example.com,,,6180 Pine Rd,New York,PA,,,2023-11-23,inactive,12,998.36,140,cash,,,F,premium
+43,EVE WHITE,customer43@example.com,,,8770 First St,Houston,TX,95516.0,76166-2186,,pending,41,1884.1,532,debit_card,,,F,regular
+44,Charlie Brown,customer44@example.com,555-1498,(555) 939-8803,1087 Second Ave,NYC,NY,85599.0,35233-6154,2021-07-10,pending,25,2692.64,168,paypal,,,M,new
+45,henry.davis123,customer45@example.com,,,2475 Pine Rd,la,AZ,89859.0,,,suspended,23,1427.61,856,cash,23.0,,M,new
+46,frank-miller,customer46@example.com,,(555) 384-2726,6606 Pine Rd,la,CA,23537.0,,2023-02-03,,27,2214.53,351,,,1971-10-17,,
+47,Grace Lee,customer47@example.com,555-6931,(555) 175-1086,6319 Main St,Los Angeles,California,72357.0,43651-4095,2023-04-24,suspended,15,1160.51,741,credit_card,28.0,1998-10-17,M,premium
+48,jane_doe,customer48@example.com,,,3059 Main St,new_york,NY,,,2023-05-21,,6,3350.59,334,credit_card,39.0,,M,
+49,John Smith,customer49@example.com,,,3155 First St,Chicago,IL,66960.0,,,suspended,22,4304.14,724,cash,71.0,1984-06-03,,new
+50,EVE WHITE,customer50@example.com,,(555) 735-7605,6065 Oak Ave,Houston,California,40668.0,,,,40,3818.77,287,cash,,,O,vip
+51,Bob Wilson,customer51@example.com,,(555) 961-5070,5151 Pine Rd,Los Angeles,IL,21181.0,,2023-04-21,active,16,3314.41,830,,,,O,premium
+52,EVE WHITE,customer52@example.com,,,5427 Second Ave,la,NY,61877.0,45109-1291,2020-02-17,active,32,495.17,356,cash,,,M,vip
+53,henry.davis123,user53@domain.com,555-3761,(555) 634-8075,1892 Main St,NYC,CA,,,,inactive,16,967.89,5,debit_card,,,M,new
+54,Charlie Brown,customer54@example.com,,,7526 Oak Ave,NYC,CA,,69554-2926,2020-09-19,inactive,20,469.44,103,cash,23.0,,,regular
+55,Charlie Brown,customer55@example.com,555-5639,,3231 Second Ave,new_york,IL,35643.0,81932-3376,2021-05-07,active,28,4161.06,464,,44.0,1961-08-21,M,regular
+56,Grace Lee,customer56@example.com,,,8949 Second Ave,New York,IL,,,2022-05-13,suspended,18,4902.51,549,,18.0,,M,
+57,Grace Lee,,,(555) 817-4614,7313 Pine Rd,New York,CA,26727.0,69273-6747,2023-03-03,,22,1370.48,30,debit_card,,,F,premium
+58,EVE WHITE,customer58@example.com,,,7411 Pine Rd,new_york,PA,58520.0,88095-3934,2022-11-20,active,27,322.53,999,cash,,1991-08-18,O,
+59,henry.davis123,customer59@example.com,555-7450,(555) 337-7604,1627 Oak Ave,Los Angeles,TX,27503.0,44575-6696,,active,34,2431.29,431,cash,,,M,regular
+60,jane_doe,customer60@example.com,,(555) 548-5692,4119 Pine Rd,Phoenix,TX,,40002-6199,2022-12-25,,7,4876.82,381,cash,63.0,1979-08-23,,
+61,Charlie Brown,customer61@example.com,,,3528 Main St,la,TX,39716.0,,2020-09-10,suspended,13,3248.39,583,debit_card,67.0,1995-10-04,O,
+62,EVE WHITE,customer62@example.com,555-9834,,2694 Main St,New York,TX,97648.0,19734-7281,2022-01-24,active,11,3986.79,96,paypal,51.0,1994-11-06,M,vip
+63,Grace Lee,customer63@example.com,555-2088,,4728 Pine Rd,Los Angeles,TX,56833.0,89110-9871,2020-06-12,active,46,2841.34,875,paypal,,1978-04-13,M,
+64,Grace Lee,customer64@example.com,,(555) 672-9036,4925 Main St,new_york,IL,,,2023-01-12,suspended,45,1029.92,899,paypal,33.0,,,regular
+65,Grace Lee,customer65@example.com,,,1900 Second Ave,Houston,AZ,,,2023-09-28,,11,1488.04,394,paypal,58.0,,M,
+66,Charlie Brown,customer66@example.com,555-1392,,7411 First St,chicago,TX,17035.0,60660-6959,2020-07-15,inactive,5,4688.43,925,debit_card,,,,
+67,Bob Wilson,customer67@example.com,,,1183 Pine Rd,chicago,IL,,35281-8500,,inactive,12,240.87,606,debit_card,52.0,,O,vip
+68,jane_doe,customer68@example.com,555-9932,,4476 Pine Rd,Chicago,New York,58416.0,,,pending,15,3175.64,567,paypal,22.0,1967-04-10,F,premium
+69,John Smith,user69@domain.com,555-9240,(555) 961-8766,7657 Pine Rd,Houston,PA,62446.0,83233-5722,,active,33,2399.25,161,,35.0,,,vip
+70,EVE WHITE,customer70@example.com,555-9210,(555) 439-9217,1687 Pine Rd,NYC,PA,38367.0,,,inactive,10,3717.15,605,credit_card,,,,regular
+71,John Smith,user71@domain.com,,(555) 680-6580,924 Main St,Chicago,IL,93742.0,,2022-12-12,,38,2800.02,702,debit_card,,,M,regular
+72,Charlie Brown,customer72@example.com,555-9601,,5222 First St,Los Angeles,NY,39810.0,,,active,6,949.62,984,credit_card,,,M,
+73,John Smith,customer73@example.com,,(555) 423-9782,1983 Second Ave,philadelphia,IL,32134.0,10406-5681,2023-12-21,active,19,2792.38,127,paypal,39.0,1974-06-20,F,regular
+74,henry.davis123,customer74@example.com,,(555) 641-6882,3380 Pine Rd,NYC,AZ,82875.0,33909-5534,2022-11-26,active,7,3656.46,276,,48.0,,F,premium
+75,,customer75@example.com,,,5850 Second Ave,la,NY,22310.0,,2020-10-27,active,43,2151.75,572,credit_card,30.0,,O,vip
+76,Grace Lee,customer76@example.com,555-9462,(555) 120-6676,325 Main St,Los Angeles,PA,,,,,15,3968.73,725,credit_card,42.0,1960-09-20,O,premium
+77,Charlie Brown,customer77@example.com,,(555) 296-1916,1686 Oak Ave,new_york,NY,,13986-7818,2022-11-03,active,6,1384.99,271,cash,25.0,,F,regular
+78,jane_doe,,,(555) 180-5650,8994 Oak Ave,la,California,70190.0,,2022-12-07,inactive,14,4080.97,385,paypal,20.0,,O,regular
+79,EVE WHITE,customer79@example.com,,(555) 810-5781,5053 Pine Rd,Phoenix,CA,86641.0,,2023-11-23,inactive,47,3294.0,504,debit_card,51.0,1970-11-02,F,vip
+80,,customer80@example.com,,(555) 954-9148,3655 First St,Phoenix,TX,,63610-7742,,active,38,3035.67,211,debit_card,43.0,,O,vip
+81,EVE WHITE,user81@domain.com,555-4112,(555) 968-7871,9363 Pine Rd,Chicago,CA,71338.0,68874-3456,2023-04-08,inactive,19,4494.41,223,,51.0,,,regular
+82,EVE WHITE,customer82@example.com,555-9802,(555) 166-1364,9149 First St,NYC,CA,70355.0,,2022-06-14,pending,9,92.07,72,debit_card,37.0,1969-09-04,F,regular
+83,Bob Wilson,customer83@example.com,,,9814 Second Ave,Los Angeles,New York,,23757-3109,2020-10-17,,4,220.21,356,,42.0,,M,
+84,,customer84@example.com,555-5635,,7908 Pine Rd,Los Angeles,AZ,35020.0,,2020-10-01,inactive,41,277.74,640,,55.0,,F,premium
+85,Bob Wilson,customer85@example.com,,(555) 485-3191,2716 Main St,la,NY,,,2023-05-12,suspended,19,1085.06,866,,49.0,1964-07-04,M,
+86,John Smith,customer86@example.com,555-5054,,1479 Pine Rd,new_york,PA,92611.0,,2022-03-12,active,31,3327.38,598,credit_card,73.0,,M,new
+87,Grace Lee,customer87@example.com,555-1331,,6281 First St,NYC,CA,,59633-4430,2020-09-06,active,15,3518.09,814,credit_card,,1975-06-23,O,new
+88,Charlie Brown,customer88@example.com,,,3100 Main St,new_york,New York,81908.0,,2020-03-01,active,41,4467.84,711,debit_card,53.0,1983-11-22,,vip
+89,frank-miller,customer89@example.com,555-5975,(555) 190-6145,3352 Oak Ave,Los Angeles,NY,,,2021-01-24,active,17,4000.98,86,paypal,,,,regular
+90,diana.prince,customer90@example.com,,,4629 Oak Ave,new_york,California,13772.0,,2023-06-10,pending,14,1859.53,53,,29.0,,F,vip
+91,EVE WHITE,customer91@example.com,,(555) 639-5928,2854 Main St,Los Angeles,New York,64535.0,11749-2946,2022-09-24,pending,48,3368.27,93,credit_card,47.0,,,
+92,Bob Wilson,customer92@example.com,,(555) 538-3561,3064 Pine Rd,NYC,California,,72949-1894,,inactive,14,299.91,815,cash,22.0,1983-08-13,,premium
+93,,user93@domain.com,555-7871,,3219 Main St,Houston,TX,15142.0,42454-8740,,suspended,20,4321.04,742,debit_card,23.0,,,new
+94,EVE WHITE,customer94@example.com,,(555) 350-8597,9376 Second Ave,Phoenix,IL,,,2020-02-16,,0,1795.24,994,debit_card,52.0,1985-11-25,M,regular
+95,jane_doe,customer95@example.com,555-4867,(555) 880-6037,6347 Oak Ave,la,CA,,,,inactive,24,1680.86,761,cash,61.0,,O,regular
+96,EVE WHITE,customer96@example.com,555-7017,(555) 521-4726,460 Pine Rd,Phoenix,California,,,,inactive,36,2548.3,298,credit_card,,1970-07-28,M,vip
+97,John Smith,customer97@example.com,555-1313,,1971 Second Ave,New York,New York,99745.0,86995-9612,2022-06-07,pending,1,3737.19,829,cash,60.0,,O,new
+98,John Smith,customer98@example.com,555-4310,(555) 855-6422,965 Pine Rd,Los Angeles,New York,52093.0,28756-3857,2021-10-03,,36,4204.19,317,cash,,,F,
+99,Bob Wilson,customer99@example.com,555-7522,(555) 131-7819,9485 Main St,NYC,CA,61194.0,64094-9302,,active,30,86.35,179,credit_card,,1999-03-10,F,vip
+100,,customer100@example.com,555-5645,,1881 Second Ave,chicago,AZ,39884.0,14448-1952,2020-03-14,inactive,26,184.68,773,debit_card,27.0,,M,regular
+101,Charlie Brown,customer101@example.com,555-1121,,8160 Oak Ave,NYC,New York,85950.0,78731-1211,2022-05-09,inactive,46,3326.76,671,credit_card,,,,new
+102,EVE WHITE,customer102@example.com,555-4222,,4008 First St,philadelphia,IL,32394.0,,2020-04-19,active,49,1918.37,774,credit_card,62.0,,,vip
+103,jane_doe,user103@domain.com,555-3282,,1711 Oak Ave,Houston,New York,90179.0,49857-4849,2020-06-12,inactive,31,3654.97,45,cash,75.0,1975-05-28,O,new
+104,,customer104@example.com,555-3123,,5853 Pine Rd,NYC,California,44775.0,84148-1568,2021-01-25,active,24,2575.46,784,credit_card,,,,regular
+105,Charlie Brown,user105@domain.com,,,7740 Pine Rd,la,California,69148.0,,,active,31,2483.84,180,debit_card,60.0,,M,new
+106,henry.davis123,customer106@example.com,555-4094,(555) 410-5818,6745 Second Ave,chicago,IL,35731.0,30786-7841,,inactive,3,3223.0,61,,,1993-10-22,F,new
+107,diana.prince,customer107@example.com,555-8365,,8141 Oak Ave,new_york,NY,47030.0,,2020-02-17,inactive,7,4334.37,586,paypal,75.0,1960-03-07,,regular
+108,jane_doe,customer108@example.com,555-6236,,2651 Oak Ave,NYC,PA,11262.0,58160-6270,2021-11-26,pending,19,4287.67,739,cash,39.0,,,
+109,EVE WHITE,customer109@example.com,555-1932,(555) 185-3696,4641 Main St,Chicago,NY,80593.0,60306-5513,2022-07-17,inactive,28,4522.72,926,cash,,,M,
+110,EVE WHITE,customer110@example.com,,(555) 656-2925,9298 Oak Ave,Chicago,New York,34674.0,,2021-10-02,active,47,4269.85,21,,,1975-08-28,M,new
+111,diana.prince,customer111@example.com,555-5858,(555) 668-4324,6251 Oak Ave,Phoenix,IL,,60406-1219,2023-12-25,,27,3537.4,878,,51.0,,F,regular
+112,,customer112@example.com,555-3934,,2226 Oak Ave,Los Angeles,TX,66298.0,76314-8951,2023-03-08,active,35,1821.97,578,debit_card,27.0,,M,premium
+113,John Smith,customer113@example.com,,(555) 402-6275,3676 Second Ave,NYC,CA,,33194-5934,2020-04-28,inactive,3,542.82,359,debit_card,,,F,premium
+114,henry.davis123,customer114@example.com,555-8353,(555) 743-7710,8950 Main St,New York,TX,30215.0,47813-6758,2022-10-09,active,8,1213.47,457,paypal,20.0,,M,regular
+115,Charlie Brown,customer115@example.com,,,209 Oak Ave,new_york,AZ,,83239-9527,2023-01-04,,3,4421.82,156,cash,37.0,,M,
+116,Bob Wilson,user116@domain.com,,,5924 First St,Phoenix,AZ,,,2020-04-27,suspended,43,3370.27,963,debit_card,,1966-03-09,O,regular
+117,John Smith,customer117@example.com,,(555) 171-9558,1672 Main St,philadelphia,New York,,,2022-12-01,,39,2428.55,147,paypal,22.0,,F,premium
+118,Charlie Brown,customer118@example.com,,(555) 222-5133,5826 First St,NYC,PA,15269.0,,2022-07-27,active,4,3010.77,510,,66.0,1974-02-25,M,regular
+119,frank-miller,customer119@example.com,,(555) 502-3658,8316 Pine Rd,Phoenix,California,,76256-9623,2022-07-01,inactive,48,2304.94,323,credit_card,,,,regular
+120,Charlie Brown,customer120@example.com,,,9934 Pine Rd,Los Angeles,TX,68438.0,,2021-07-05,inactive,17,327.24,647,credit_card,,1977-10-10,,new
+121,henry.davis123,user121@domain.com,555-3490,,9191 First St,new_york,AZ,70957.0,77439-6621,2022-04-26,active,11,4945.08,914,,,,,new
+122,Charlie Brown,customer122@example.com,,(555) 452-7853,1971 Main St,Chicago,California,69476.0,,2020-10-28,active,31,2260.96,925,paypal,,,M,vip
+123,EVE WHITE,customer123@example.com,,,6340 First St,NYC,PA,,41283-9813,2023-04-17,inactive,38,3161.58,779,credit_card,,,,premium
+124,jane_doe,user124@domain.com,555-9117,(555) 781-7969,745 Second Ave,Phoenix,PA,45014.0,76991-2145,2023-06-25,suspended,39,4767.23,43,,66.0,,F,new
+125,henry.davis123,customer125@example.com,555-9614,,3724 First St,philadelphia,AZ,99055.0,39217-3598,2022-02-13,inactive,25,423.92,377,credit_card,61.0,1982-05-25,F,regular
+126,EVE WHITE,customer126@example.com,,,3028 First St,NYC,AZ,13198.0,22946-2801,,,22,2859.12,844,cash,51.0,1985-06-15,O,regular
+127,Grace Lee,user127@domain.com,,,9442 First St,Chicago,New York,71224.0,,,suspended,4,3539.6,242,cash,76.0,,O,premium
+128,EVE WHITE,customer128@example.com,,,1346 Oak Ave,Houston,New York,,11387-1990,,inactive,0,3031.55,963,,71.0,,,new
+129,EVE WHITE,customer129@example.com,,,2326 Main St,Phoenix,California,64659.0,60264-6799,2023-06-11,active,15,2476.45,27,cash,31.0,,M,vip
+130,jane_doe,user130@domain.com,,,4109 Main St,chicago,PA,49297.0,,2023-02-13,,30,2767.02,122,,76.0,,,
+131,John Smith,customer131@example.com,555-9589,,6880 Second Ave,la,CA,13939.0,16498-8436,2022-01-22,active,13,2962.33,113,credit_card,45.0,1994-05-17,,new
+132,diana.prince,customer132@example.com,555-5148,,7903 Second Ave,philadelphia,AZ,38604.0,58494-5218,2020-12-14,active,15,510.1,46,paypal,62.0,1969-12-24,O,vip
+133,jane_doe,customer133@example.com,555-1224,(555) 103-7970,5864 Second Ave,Los Angeles,AZ,65214.0,,2021-12-10,active,23,931.34,601,paypal,,1970-08-22,M,premium
+134,EVE WHITE,user134@domain.com,,,957 Main St,Los Angeles,New York,,,2020-07-06,active,2,2843.27,308,,,,F,
+135,Bob Wilson,customer135@example.com,555-3867,(555) 435-2830,8013 Pine Rd,Houston,New York,80854.0,,,,16,2312.27,712,paypal,46.0,,F,vip
+136,,customer136@example.com,,(555) 450-5788,1740 Second Ave,Houston,PA,,,,inactive,7,949.13,87,,,1997-02-19,M,
+137,,customer137@example.com,,,9011 Pine Rd,Phoenix,IL,,,2023-11-05,suspended,43,4260.35,924,debit_card,58.0,,,regular
+138,John Smith,customer138@example.com,,(555) 111-2016,1961 Pine Rd,chicago,TX,,44444-5624,,active,6,3188.69,353,debit_card,,1980-01-21,O,
+139,Charlie Brown,customer139@example.com,555-5289,,4101 Second Ave,new_york,PA,83455.0,,2023-03-08,inactive,40,4623.27,157,debit_card,74.0,,O,premium
+140,Bob Wilson,customer140@example.com,,,9641 Second Ave,New York,California,26778.0,,2023-06-21,active,19,4961.16,573,paypal,19.0,,F,premium
+141,diana.prince,,555-2359,(555) 139-3326,4693 Second Ave,new_york,IL,66779.0,26116-8113,2022-09-23,inactive,13,4770.12,288,credit_card,28.0,,,vip
+142,,customer142@example.com,,(555) 180-2577,4281 Second Ave,la,PA,57379.0,,,inactive,5,2894.94,726,cash,,1989-06-15,O,new
+143,John Smith,,,(555) 293-4683,233 Pine Rd,la,AZ,,,2022-09-16,active,24,2127.15,10,paypal,37.0,1976-06-24,,vip
+144,John Smith,customer144@example.com,,,9494 Pine Rd,Chicago,PA,70378.0,93223-2607,2022-02-28,inactive,46,3060.48,527,credit_card,26.0,1969-01-09,F,
+145,frank-miller,user145@domain.com,555-7365,,932 Second Ave,philadelphia,IL,,,2021-01-01,active,38,1250.97,284,,36.0,1976-04-18,F,vip
+146,,customer146@example.com,,(555) 458-5597,8888 First St,la,CA,98488.0,72457-9392,2021-03-02,inactive,11,3510.13,205,,,1969-08-04,O,vip
+147,diana.prince,user147@domain.com,555-6451,,5049 First St,Houston,CA,,76348-6885,2021-10-27,pending,18,4713.4,104,cash,35.0,,F,new
+148,frank-miller,customer148@example.com,,(555) 915-2019,9832 Pine Rd,chicago,AZ,,,2021-11-15,inactive,17,4053.0,414,cash,23.0,1991-07-08,O,vip
+149,henry.davis123,user149@domain.com,,,6300 Pine Rd,la,CA,,,,,12,2754.69,167,debit_card,32.0,,F,vip
+150,EVE WHITE,customer150@example.com,,,4650 Pine Rd,Houston,TX,21719.0,78272-3340,,active,11,2162.26,548,paypal,,,,new
+151,henry.davis123,customer151@example.com,,,8578 Second Ave,new_york,New York,,,2023-09-22,active,27,3925.73,675,,,,,regular
+152,EVE WHITE,,,(555) 581-4506,9111 First St,la,PA,87472.0,61150-7054,2023-07-18,,34,1338.04,487,paypal,45.0,,,
+153,Grace Lee,user153@domain.com,555-1513,,6166 Oak Ave,NYC,IL,45157.0,88132-8155,2023-06-09,,8,1255.35,353,,68.0,1985-06-10,,vip
+154,Charlie Brown,customer154@example.com,,(555) 883-3991,8285 Second Ave,Los Angeles,California,94963.0,,2023-12-21,pending,26,268.54,771,,18.0,,M,vip
+155,Charlie Brown,customer155@example.com,555-2948,(555) 787-8962,575 Second Ave,Phoenix,CA,19696.0,,2021-06-14,active,44,781.88,85,,44.0,,F,vip
+156,Grace Lee,customer156@example.com,555-1200,(555) 374-7853,9260 First St,Chicago,CA,,56319-5552,,inactive,25,3799.66,123,debit_card,77.0,,F,regular
+157,Grace Lee,user157@domain.com,,(555) 531-8138,5272 Main St,Chicago,NY,,83301-4130,,active,39,1686.27,943,credit_card,34.0,,M,premium
+158,frank-miller,customer158@example.com,,,2672 Main St,new_york,IL,,92436-3710,2022-11-06,pending,20,4998.66,263,cash,,,,regular
+159,EVE WHITE,customer159@example.com,,,9099 Pine Rd,New York,PA,94445.0,64449-7067,,,29,423.23,922,,51.0,,O,
+160,John Smith,customer160@example.com,,(555) 742-9825,799 Oak Ave,Chicago,NY,90655.0,31457-7141,2023-05-26,suspended,36,1703.37,722,debit_card,,1974-02-04,F,vip
+161,frank-miller,customer161@example.com,,(555) 787-9317,4794 Main St,Houston,CA,35120.0,63786-6839,2020-09-16,,24,4024.87,321,cash,39.0,1987-10-03,,new
+162,Grace Lee,customer162@example.com,555-5509,(555) 402-7019,9387 Second Ave,New York,AZ,75450.0,,,,25,3890.7,293,credit_card,23.0,,F,
+163,EVE WHITE,customer163@example.com,,,230 Second Ave,Phoenix,TX,,73806-7364,2020-10-08,active,3,1852.07,886,cash,,1976-12-22,M,premium
+164,Bob Wilson,,,(555) 421-6523,4457 Oak Ave,NYC,IL,,90080-8599,,inactive,8,1954.35,593,cash,32.0,,,premium
+165,Charlie Brown,customer165@example.com,,,8161 Main St,Houston,AZ,66317.0,40435-3370,,active,46,184.48,296,debit_card,55.0,,M,new
+166,jane_doe,customer166@example.com,555-4871,(555) 102-2914,3033 First St,chicago,New York,,25422-9986,,suspended,40,3112.13,915,credit_card,,,,premium
+167,Grace Lee,customer167@example.com,555-6642,,9731 Main St,Houston,CA,40871.0,85998-3564,,inactive,33,4658.38,43,credit_card,22.0,,F,regular
+168,Grace Lee,customer168@example.com,,,8442 Second Ave,new_york,California,57517.0,77643-4936,,suspended,29,1640.72,956,,,1981-04-07,O,vip
+169,John Smith,customer169@example.com,,(555) 753-6156,9804 Main St,NYC,CA,42446.0,,2021-04-13,pending,39,500.98,421,cash,29.0,,M,new
+170,henry.davis123,customer170@example.com,,,981 First St,new_york,AZ,10378.0,88891-8414,,pending,25,4506.22,217,credit_card,31.0,1967-08-13,F,premium
+171,Grace Lee,customer171@example.com,,,4314 Pine Rd,philadelphia,California,83582.0,,,active,2,1444.9,664,credit_card,,,F,new
+172,EVE WHITE,customer172@example.com,,,583 Oak Ave,chicago,CA,,46939-5061,2020-07-17,active,38,3785.86,905,credit_card,45.0,1961-08-08,M,
+173,diana.prince,customer173@example.com,,,8049 First St,new_york,CA,,47430-9253,2023-03-05,inactive,41,3772.53,718,debit_card,,,,new
+174,jane_doe,customer174@example.com,555-1123,(555) 639-9496,7001 Oak Ave,New York,PA,82934.0,,2022-05-03,inactive,31,2056.88,175,cash,69.0,,M,vip
+175,jane_doe,customer175@example.com,,,2506 Pine Rd,NYC,PA,20431.0,,2022-02-28,pending,44,4281.09,303,,,,,premium
+176,,customer176@example.com,555-5751,,1950 Main St,NYC,IL,67958.0,,2021-06-22,pending,22,3010.67,704,,60.0,,,regular
+177,jane_doe,customer177@example.com,,,9984 Main St,Houston,New York,20702.0,,2022-04-23,pending,42,1966.09,177,credit_card,45.0,,F,regular
+178,,customer178@example.com,555-2322,(555) 940-1303,8070 Oak Ave,chicago,AZ,,,2022-11-01,inactive,6,205.34,915,debit_card,,1967-12-03,M,vip
+179,frank-miller,customer179@example.com,,(555) 605-2972,9962 Main St,la,PA,,54397-3481,2023-07-17,inactive,18,3197.15,386,paypal,74.0,1999-02-05,,vip
+180,EVE WHITE,user180@domain.com,,(555) 380-2537,3025 First St,New York,IL,,61612-1243,,inactive,29,637.41,955,debit_card,,1990-07-05,M,new
+181,,customer181@example.com,,(555) 364-9641,545 Oak Ave,new_york,PA,15712.0,20966-5096,2021-09-06,inactive,38,2832.07,648,debit_card,39.0,,O,premium
+182,Charlie Brown,customer182@example.com,,(555) 218-5605,8428 Second Ave,NYC,New York,49215.0,33351-4571,2022-03-23,active,7,2777.95,718,credit_card,69.0,1976-08-23,F,new
+183,diana.prince,customer183@example.com,,,4761 Main St,Phoenix,TX,84582.0,51139-1661,2021-03-26,inactive,36,2592.21,689,credit_card,49.0,,F,
+184,EVE WHITE,customer184@example.com,,,6069 Oak Ave,Chicago,IL,12276.0,,2022-03-05,pending,47,1167.14,472,cash,,,O,premium
+185,Charlie Brown,user185@domain.com,,,106 Pine Rd,chicago,TX,,,,active,16,4801.92,218,debit_card,45.0,1962-09-28,F,
+186,John Smith,customer186@example.com,,,7115 First St,Houston,TX,24814.0,31077-4131,2021-02-11,suspended,48,4261.62,166,debit_card,,,,premium
+187,Bob Wilson,customer187@example.com,,,4323 Oak Ave,Chicago,CA,20420.0,87699-3800,,inactive,23,1420.78,503,,59.0,,F,vip
+188,EVE WHITE,user188@domain.com,,,5582 Second Ave,la,PA,27394.0,27099-4248,2023-11-25,inactive,27,1546.87,685,debit_card,24.0,1962-02-27,M,new
+189,Bob Wilson,user189@domain.com,,(555) 353-9510,8670 Second Ave,Chicago,New York,,,,pending,38,3611.13,309,credit_card,,,F,premium
+190,frank-miller,customer190@example.com,555-4053,,4522 Second Ave,new_york,NY,91208.0,73542-7368,2021-08-03,,3,2102.71,47,credit_card,,,,regular
+191,diana.prince,customer191@example.com,,,5749 Pine Rd,New York,CA,,,2023-04-21,,28,79.88,538,credit_card,,,,premium
+192,Grace Lee,user192@domain.com,555-1608,(555) 408-7680,9324 Oak Ave,New York,New York,39822.0,80608-4956,2021-10-17,inactive,22,1356.08,484,debit_card,,,F,
+193,jane_doe,,,(555) 836-9549,7449 Pine Rd,New York,IL,33958.0,,2020-10-23,,18,1857.47,461,credit_card,70.0,,F,vip
+194,Charlie Brown,customer194@example.com,,(555) 578-4680,9679 Main St,Phoenix,California,15370.0,,2020-01-16,active,8,3739.77,445,cash,65.0,,M,vip
+195,Charlie Brown,user195@domain.com,555-5117,(555) 264-4034,9044 Oak Ave,philadelphia,PA,,,2023-08-15,active,24,4607.69,274,credit_card,,,,premium
+196,EVE WHITE,customer196@example.com,555-7260,,4565 First St,Phoenix,California,55339.0,,,pending,18,1747.59,422,,,1988-03-04,,regular
+197,diana.prince,,555-3949,,8613 First St,new_york,California,12425.0,15026-4314,2021-03-06,suspended,35,357.96,66,,,1967-06-19,,
+198,diana.prince,customer198@example.com,555-9946,,4891 Oak Ave,Houston,PA,25909.0,,2023-02-15,inactive,4,4213.05,938,cash,34.0,,M,
+199,frank-miller,customer199@example.com,555-3420,,9213 Pine Rd,Chicago,PA,46421.0,76457-1466,2021-05-19,inactive,16,369.6,851,,26.0,1993-05-08,F,regular
+200,Grace Lee,user200@domain.com,555-2293,,3905 Pine Rd,Houston,TX,,,2022-10-26,pending,13,163.27,65,,70.0,1967-06-08,O,regular
+201,EVE WHITE,customer201@example.com,555-3463,(555) 633-8143,7588 Main St,philadelphia,AZ,56427.0,,2023-10-05,inactive,15,2053.19,957,cash,33.0,1963-02-17,,regular
+202,Charlie Brown,customer202@example.com,,(555) 746-4374,4418 Pine Rd,NYC,PA,79326.0,16880-3785,,active,30,1328.41,750,cash,52.0,1964-07-23,F,premium
+203,John Smith,customer203@example.com,,,8634 Oak Ave,Los Angeles,TX,27801.0,,,,0,4860.53,750,paypal,44.0,,,new
+204,jane_doe,user204@domain.com,,,5622 Oak Ave,Chicago,PA,74868.0,56712-6964,2023-10-01,inactive,29,705.96,979,debit_card,66.0,,O,premium
+205,henry.davis123,customer205@example.com,,,1168 Pine Rd,Chicago,New York,13323.0,,,inactive,21,3486.66,323,credit_card,,,M,
+206,diana.prince,customer206@example.com,,,152 Main St,Chicago,New York,52123.0,78606-1374,,inactive,23,1934.63,479,paypal,,,,new
+207,John Smith,customer207@example.com,,,3995 Main St,philadelphia,AZ,66131.0,80735-8251,2023-12-22,active,16,4673.76,709,paypal,47.0,,F,premium
+208,Grace Lee,customer208@example.com,,,8488 Oak Ave,la,NY,35815.0,,2023-12-13,suspended,30,1809.8,876,paypal,,1979-02-14,,vip
+209,Grace Lee,customer209@example.com,555-2234,,2706 Pine Rd,Phoenix,New York,,25131-9618,,pending,20,4571.34,391,,63.0,,M,vip
+210,,customer210@example.com,555-6106,,567 Pine Rd,Houston,TX,,,2021-08-24,,31,192.58,313,credit_card,52.0,,F,vip
+211,John Smith,customer211@example.com,555-8354,(555) 605-8468,4779 Oak Ave,Houston,New York,45131.0,67228-9951,,inactive,2,1288.0,994,cash,,,O,vip
+212,diana.prince,customer212@example.com,,(555) 181-2448,7741 Pine Rd,chicago,PA,59874.0,87871-2961,2020-10-01,suspended,2,102.63,715,cash,,,F,regular
+213,John Smith,,555-2557,(555) 888-9563,6643 Second Ave,Los Angeles,AZ,68682.0,10914-9046,2020-12-09,inactive,29,2694.53,377,credit_card,58.0,1966-10-20,O,vip
+214,henry.davis123,customer214@example.com,555-7561,,8643 Main St,New York,TX,,15831-5235,2021-08-11,,7,329.53,78,debit_card,70.0,1970-01-17,F,vip
+215,Grace Lee,customer215@example.com,,(555) 259-9827,3539 Second Ave,new_york,AZ,,,2020-07-15,,5,42.74,88,,,1963-04-13,M,vip
+216,henry.davis123,customer216@example.com,,(555) 387-6271,9889 First St,Phoenix,AZ,74463.0,87610-8006,2021-02-27,,48,524.92,525,credit_card,29.0,,F,regular
+217,John Smith,customer217@example.com,,,6602 Oak Ave,NYC,AZ,20978.0,,2022-02-03,active,13,653.99,819,,26.0,1970-11-24,M,vip
+218,EVE WHITE,customer218@example.com,,,2002 Second Ave,New York,AZ,,52128-7999,,pending,38,1614.05,873,paypal,58.0,1973-01-20,,
+219,diana.prince,customer219@example.com,,(555) 929-7309,7740 Main St,chicago,New York,,,,suspended,43,4504.65,488,credit_card,,1980-07-10,M,regular
+220,Charlie Brown,user220@domain.com,555-2380,,1554 First St,Houston,CA,,,2023-06-09,pending,43,4884.34,292,credit_card,,,F,
+221,Charlie Brown,customer221@example.com,555-8979,(555) 195-6541,6891 Main St,chicago,AZ,90436.0,,,active,32,1499.23,872,credit_card,46.0,,O,
+222,Grace Lee,customer222@example.com,,,304 Oak Ave,NYC,NY,47679.0,35005-2690,,active,18,825.5,456,credit_card,,1995-03-17,F,
+223,EVE WHITE,customer223@example.com,,,4638 Main St,Phoenix,CA,82887.0,79801-5884,2020-11-08,,18,893.72,435,paypal,,1971-03-21,,new
+224,Grace Lee,customer224@example.com,555-3507,,1837 Pine Rd,new_york,TX,,81877-5517,2022-08-17,active,37,3507.54,696,,,1990-06-21,O,new
+225,Charlie Brown,customer225@example.com,,,3204 Oak Ave,chicago,TX,59502.0,17802-8293,2023-06-02,pending,42,4169.74,450,paypal,,,F,premium
+226,EVE WHITE,customer226@example.com,,(555) 486-1070,5415 Pine Rd,Chicago,IL,85937.0,68146-3122,2022-05-17,active,26,1820.19,945,cash,57.0,,F,new
+227,Bob Wilson,customer227@example.com,,(555) 194-4581,6193 Main St,NYC,AZ,28332.0,,2023-12-11,inactive,22,823.86,943,,40.0,,O,new
+228,,user228@domain.com,555-5458,(555) 406-6515,5495 Main St,NYC,IL,11982.0,,2021-10-03,,11,1087.39,16,cash,60.0,1982-08-25,M,premium
+229,John Smith,user229@domain.com,555-5501,,9716 Main St,NYC,NY,65871.0,62382-4643,2021-04-01,suspended,43,1019.74,607,debit_card,67.0,,M,vip
+230,diana.prince,customer230@example.com,,(555) 531-8243,5823 First St,Phoenix,NY,,90516-2846,2021-09-02,inactive,2,2942.0,795,credit_card,70.0,,,
+231,John Smith,customer231@example.com,555-7582,(555) 981-7433,1976 Pine Rd,Los Angeles,PA,75365.0,,2022-11-20,active,48,1427.81,472,,74.0,1984-08-16,M,vip
+232,Grace Lee,user232@domain.com,,,4628 Main St,Los Angeles,AZ,36190.0,,,inactive,41,4973.39,667,paypal,,,F,
+233,Grace Lee,user233@domain.com,,(555) 309-5450,1761 Main St,Los Angeles,CA,46958.0,,,,19,162.29,159,,32.0,,O,new
+234,frank-miller,customer234@example.com,555-1992,(555) 254-3779,3050 Main St,Los Angeles,IL,,15313-1696,2020-10-27,active,4,3254.49,741,debit_card,42.0,1985-10-20,M,new
+235,Bob Wilson,customer235@example.com,,,7942 Second Ave,New York,California,57829.0,,2021-08-15,inactive,34,4371.03,498,paypal,28.0,1989-03-14,M,new
+236,henry.davis123,customer236@example.com,,(555) 967-6868,8678 Oak Ave,la,PA,56476.0,37073-2808,2023-05-20,pending,33,4035.09,933,cash,18.0,,M,vip
+237,,customer237@example.com,,(555) 667-7620,4913 Second Ave,new_york,NY,44802.0,25154-5219,2021-04-24,inactive,46,4727.04,822,credit_card,19.0,,M,premium
+238,,user238@domain.com,,,9550 Oak Ave,chicago,New York,79397.0,97180-6923,,,35,3088.68,664,paypal,,,,vip
+239,,customer239@example.com,,,1172 Pine Rd,new_york,New York,27550.0,,,suspended,17,3038.16,541,,30.0,1960-01-13,F,regular
+240,Bob Wilson,customer240@example.com,555-7173,,4590 Main St,philadelphia,California,11045.0,80438-8084,2021-03-06,pending,17,3642.45,383,,60.0,1996-07-01,F,vip
+241,diana.prince,customer241@example.com,555-3927,(555) 185-7057,7450 Main St,Houston,California,32229.0,86851-1456,2020-05-23,pending,4,648.17,361,credit_card,21.0,1999-03-20,F,new
+242,,customer242@example.com,555-3514,,3307 Second Ave,Los Angeles,AZ,98374.0,95141-7515,,inactive,48,1113.24,569,,,,M,premium
+243,,customer243@example.com,555-2377,,6242 Main St,Chicago,New York,43305.0,16592-2644,,inactive,18,3275.29,561,credit_card,59.0,1965-04-23,,vip
+244,jane_doe,user244@domain.com,,,9362 Oak Ave,Los Angeles,NY,32317.0,,2021-01-12,pending,12,2201.01,988,credit_card,45.0,,M,
+245,Grace Lee,customer245@example.com,555-2794,,6994 Main St,Houston,NY,82900.0,,2023-10-16,inactive,35,4214.24,314,cash,,1968-11-26,M,new
+246,henry.davis123,customer246@example.com,,,2736 First St,New York,NY,25240.0,,2023-05-09,suspended,0,4887.1,824,credit_card,,,F,new
+247,diana.prince,,555-1845,(555) 125-9861,3777 First St,New York,California,22213.0,25551-3184,2021-03-14,inactive,37,2594.66,685,,,,M,new
+248,John Smith,,,(555) 262-5237,4937 Main St,philadelphia,California,80578.0,72855-9643,2021-06-28,inactive,31,711.48,437,credit_card,21.0,,,premium
+249,jane_doe,customer249@example.com,,,7791 Pine Rd,NYC,New York,83899.0,13069-7854,2022-08-21,pending,10,3609.41,843,paypal,,,M,vip
+250,jane_doe,customer250@example.com,555-9564,(555) 405-7440,697 Main St,Houston,California,51056.0,58459-5776,2020-12-01,suspended,30,157.79,949,debit_card,,,F,
+251,John Smith,customer251@example.com,555-4412,,7380 Pine Rd,la,CA,65530.0,14275-1629,2020-02-09,inactive,18,2473.84,358,credit_card,,1967-06-03,,new
+252,EVE WHITE,customer252@example.com,,(555) 251-7343,6179 Second Ave,NYC,IL,92869.0,,2022-09-01,suspended,6,4854.36,790,paypal,46.0,,F,
+253,jane_doe,user253@domain.com,,(555) 568-4710,9315 First St,chicago,TX,72320.0,,,active,21,548.1,902,paypal,,,,new
+254,EVE WHITE,customer254@example.com,,,1030 Oak Ave,NYC,California,,,2023-05-04,active,27,4478.6,235,paypal,63.0,,,new
+255,Charlie Brown,customer255@example.com,555-7793,(555) 518-4324,3554 Second Ave,Houston,IL,,51780-6178,2020-10-05,pending,36,1430.74,224,credit_card,,1960-09-21,,regular
+256,jane_doe,,,,357 Main St,Phoenix,NY,,,,suspended,49,569.84,318,debit_card,48.0,,M,vip
+257,henry.davis123,customer257@example.com,,,9113 Main St,Houston,NY,,91723-9337,2022-04-18,inactive,47,4643.67,254,cash,66.0,,O,vip
+258,EVE WHITE,user258@domain.com,,(555) 853-8516,1081 Second Ave,Houston,California,,,,inactive,20,895.71,327,debit_card,36.0,1984-09-22,M,
+259,Bob Wilson,customer259@example.com,,(555) 167-1092,6776 Oak Ave,NYC,PA,69608.0,33448-1390,,active,45,287.5,501,debit_card,34.0,,M,regular
+260,EVE WHITE,customer260@example.com,,(555) 727-6206,815 Second Ave,new_york,CA,,,,,49,2907.17,836,debit_card,75.0,,M,
+261,,customer261@example.com,555-1364,(555) 432-2632,4811 Main St,NYC,PA,,84243-8394,2021-07-26,suspended,38,1048.73,393,debit_card,59.0,1999-10-12,M,premium
+262,diana.prince,,,(555) 829-1984,7938 Main St,philadelphia,New York,88860.0,71187-8667,2021-07-01,active,13,2176.58,303,,71.0,,,regular
+263,Charlie Brown,customer263@example.com,,(555) 531-5345,7221 First St,chicago,California,,,2023-12-14,pending,19,2555.93,402,cash,30.0,,O,new
+264,Grace Lee,customer264@example.com,,,7796 Second Ave,new_york,IL,54982.0,61412-8499,,active,6,2031.67,612,cash,,1992-12-20,M,new
+265,diana.prince,,555-8342,,3975 Main St,Los Angeles,New York,35971.0,,2022-03-22,active,6,3146.61,120,cash,75.0,1964-08-13,F,new
+266,Bob Wilson,customer266@example.com,,,5737 Oak Ave,new_york,PA,45776.0,,2022-10-08,suspended,37,1980.23,591,,,1960-02-23,F,new
+267,Bob Wilson,customer267@example.com,,,8614 Oak Ave,chicago,IL,79832.0,,2023-06-27,,5,467.77,851,paypal,58.0,1987-06-17,,
+268,frank-miller,customer268@example.com,555-8269,,9490 Pine Rd,Los Angeles,NY,86563.0,,2021-02-27,,16,1540.09,102,credit_card,49.0,1970-12-25,M,vip
+269,frank-miller,customer269@example.com,555-1570,,1201 Pine Rd,New York,California,27576.0,97157-3131,2023-12-23,inactive,35,4831.72,487,debit_card,,,F,regular
+270,diana.prince,customer270@example.com,555-8801,,9493 First St,Los Angeles,TX,53473.0,85910-1750,2023-03-04,,27,489.85,152,paypal,,,M,regular
+271,Charlie Brown,customer271@example.com,555-2316,(555) 655-2557,8692 Oak Ave,la,IL,,,2023-12-04,,28,4798.97,184,,39.0,1992-05-25,,
+272,John Smith,customer272@example.com,555-5267,,4002 Main St,Phoenix,NY,95357.0,78466-3525,2020-06-06,,28,3880.34,641,,39.0,,,
+273,Bob Wilson,customer273@example.com,555-4337,,885 First St,Chicago,CA,40215.0,,,suspended,0,165.02,38,paypal,,,M,premium
+274,henry.davis123,user274@domain.com,,(555) 106-2705,1848 Second Ave,new_york,CA,68059.0,66938-3791,2020-05-14,inactive,12,1876.22,377,paypal,43.0,,F,regular
+275,Bob Wilson,customer275@example.com,555-6371,,3338 Main St,philadelphia,New York,,84004-5164,2022-07-20,active,15,2582.32,659,cash,,,O,vip
+276,henry.davis123,customer276@example.com,555-8960,,7217 Second Ave,NYC,CA,,62375-9946,,pending,13,449.56,722,credit_card,60.0,,,regular
+277,diana.prince,customer277@example.com,555-2105,,1237 Pine Rd,New York,NY,77614.0,89927-4612,2020-02-07,inactive,47,2202.51,915,debit_card,59.0,,,
+278,EVE WHITE,customer278@example.com,,,1044 First St,Phoenix,IL,91852.0,,,pending,17,4378.89,800,cash,65.0,1979-01-15,F,
+279,EVE WHITE,customer279@example.com,555-8460,,5746 First St,la,CA,67371.0,78525-7916,2020-03-04,inactive,45,2907.37,704,credit_card,49.0,1972-12-13,,new
+280,Grace Lee,customer280@example.com,,(555) 721-3069,6207 Pine Rd,New York,TX,83699.0,93521-9686,,inactive,28,3273.64,482,cash,,1975-08-15,,
+281,jane_doe,customer281@example.com,,,3865 Main St,NYC,California,,80459-6886,2023-08-12,,35,4802.94,753,cash,,,,new
+282,,customer282@example.com,555-1115,(555) 766-1141,6987 Oak Ave,Los Angeles,PA,54120.0,,2023-11-09,pending,39,1006.28,13,paypal,,,O,regular
+283,John Smith,customer283@example.com,555-3169,,8387 Main St,chicago,PA,97250.0,,2021-09-12,active,23,4765.69,558,cash,,1985-11-04,O,
+284,Charlie Brown,user284@domain.com,555-8133,(555) 445-1722,792 Main St,philadelphia,California,43383.0,18543-2016,2023-11-13,active,27,4015.35,878,,39.0,1974-06-24,M,premium
+285,frank-miller,user285@domain.com,,,1968 Oak Ave,chicago,CA,,,,inactive,7,4647.42,195,cash,44.0,,F,
+286,John Smith,customer286@example.com,,(555) 275-8445,3612 Pine Rd,NYC,AZ,,53124-5834,2021-03-09,active,42,2773.33,525,,42.0,1978-10-23,M,
+287,,customer287@example.com,555-6755,(555) 389-8068,6252 Main St,chicago,CA,,88127-9899,2022-09-23,suspended,20,1744.06,983,debit_card,,1960-08-15,M,
+288,diana.prince,customer288@example.com,555-7522,(555) 327-6425,3499 Second Ave,Los Angeles,CA,60448.0,83144-2397,2020-08-06,suspended,15,1837.2,889,,,,,premium
+289,Grace Lee,customer289@example.com,555-7415,(555) 665-3628,4120 Main St,chicago,IL,,17895-2152,2020-12-04,suspended,17,1541.9,196,paypal,27.0,,F,vip
+290,Grace Lee,user290@domain.com,,(555) 403-5282,5182 Pine Rd,new_york,AZ,34629.0,55979-8263,2023-09-03,active,18,4249.46,890,cash,,,,premium
+291,diana.prince,customer291@example.com,,,4683 Second Ave,chicago,California,97469.0,84447-6449,,,43,3410.04,967,paypal,52.0,1978-10-24,M,regular
+292,,user292@domain.com,,,1378 Second Ave,Chicago,AZ,96980.0,,,inactive,15,4849.01,25,debit_card,49.0,,M,new
+293,,customer293@example.com,555-8528,,1065 Main St,Chicago,AZ,,,2022-10-11,suspended,34,3047.06,419,cash,55.0,,F,vip
+294,jane_doe,customer294@example.com,555-5379,,4345 Second Ave,philadelphia,New York,80326.0,79487-3840,,inactive,4,1661.89,296,,,,,regular
+295,EVE WHITE,customer295@example.com,,(555) 861-4601,6299 Second Ave,Chicago,TX,26476.0,27207-7185,2020-11-14,active,5,3207.19,72,credit_card,23.0,1970-05-22,F,new
+296,Grace Lee,customer296@example.com,,(555) 605-7869,7807 Pine Rd,New York,IL,29636.0,44826-9971,2020-10-14,suspended,43,3083.25,351,debit_card,,,,new
+297,jane_doe,user297@domain.com,,,6731 Main St,Houston,AZ,99582.0,39800-9521,2023-01-17,inactive,4,3026.96,87,,22.0,,,regular
+298,jane_doe,user298@domain.com,,(555) 787-4326,108 Main St,New York,IL,,44146-5983,2021-10-25,,18,1614.3,641,,70.0,,,vip
+299,jane_doe,customer299@example.com,555-1957,(555) 205-2058,3249 Second Ave,Los Angeles,AZ,40380.0,,2023-11-18,active,9,3384.91,938,debit_card,,,,vip
+300,EVE WHITE,customer300@example.com,,(555) 462-3884,5156 Oak Ave,chicago,CA,25241.0,64551-3070,,suspended,43,4876.86,52,,,,M,premium
+301,diana.prince,customer301@example.com,555-2022,,99 Second Ave,new_york,AZ,84639.0,43437-6686,2022-10-09,pending,47,1536.19,37,debit_card,40.0,,M,new
+302,henry.davis123,customer302@example.com,,(555) 992-8698,5547 Oak Ave,Chicago,AZ,,51800-5477,2020-12-20,pending,16,4255.54,264,,,,O,vip
+303,jane_doe,user303@domain.com,,(555) 939-6982,4160 Oak Ave,philadelphia,TX,28437.0,84187-2200,,suspended,32,2240.02,512,credit_card,62.0,,O,
+304,Bob Wilson,customer304@example.com,555-7702,(555) 337-8960,4899 Second Ave,New York,NY,17723.0,63442-9764,2021-01-24,,16,1300.05,171,credit_card,,,,new
+305,John Smith,customer305@example.com,555-5755,,2040 Main St,NYC,IL,95542.0,47225-1965,2023-09-10,active,8,785.18,331,credit_card,49.0,,,
+306,diana.prince,user306@domain.com,,(555) 835-7446,7370 First St,Chicago,PA,44106.0,,2021-10-25,,48,1806.39,724,,,1986-08-19,F,vip
+307,Bob Wilson,customer307@example.com,,,5391 Oak Ave,philadelphia,CA,,82099-8036,,active,23,340.47,987,debit_card,,,,premium
+308,Bob Wilson,user308@domain.com,555-5695,,2556 Oak Ave,chicago,CA,93896.0,,2023-10-04,,46,799.06,660,debit_card,38.0,1983-04-20,M,new
+309,frank-miller,,,(555) 193-7979,4209 Oak Ave,chicago,IL,62014.0,28926-6791,2020-06-13,suspended,39,4876.21,887,cash,36.0,,F,
+310,henry.davis123,,555-1637,,1729 Oak Ave,Phoenix,TX,,32228-2731,2023-06-11,suspended,7,231.86,615,,57.0,,O,regular
+311,henry.davis123,customer311@example.com,,(555) 180-1562,6234 Oak Ave,NYC,AZ,52387.0,,2022-01-02,active,45,1482.92,305,credit_card,24.0,,M,vip
+312,frank-miller,customer312@example.com,,,775 First St,Phoenix,California,96950.0,20485-7475,,,27,3832.68,538,debit_card,,,F,regular
+313,Bob Wilson,customer313@example.com,,,2586 First St,chicago,TX,,,2022-04-08,inactive,2,4446.97,909,credit_card,31.0,1987-12-13,O,premium
+314,,customer314@example.com,,,3636 Pine Rd,NYC,PA,99690.0,69639-6588,2020-09-08,inactive,12,435.62,514,cash,,1990-04-19,M,
+315,diana.prince,customer315@example.com,555-9137,,5935 Second Ave,new_york,California,90075.0,50095-9930,2023-11-03,active,23,4899.99,579,cash,,,O,
+316,frank-miller,customer316@example.com,,(555) 705-5593,3241 Pine Rd,philadelphia,New York,79984.0,,2023-02-02,pending,6,1414.5,148,debit_card,66.0,,,
+317,EVE WHITE,customer317@example.com,,,2672 Second Ave,NYC,California,68423.0,32154-7880,,inactive,3,961.36,318,paypal,68.0,,M,
+318,frank-miller,user318@domain.com,,,8289 First St,Phoenix,CA,58594.0,36922-8413,2022-07-18,,20,571.28,481,paypal,,,F,vip
+319,Grace Lee,customer319@example.com,555-2199,(555) 903-9145,9931 Main St,Phoenix,AZ,34884.0,,2022-05-09,active,41,3062.06,746,cash,58.0,1964-07-15,M,regular
+320,John Smith,customer320@example.com,555-4902,,279 Oak Ave,chicago,AZ,78393.0,97049-2862,2022-07-13,inactive,5,2965.51,382,paypal,,,F,vip
+321,henry.davis123,customer321@example.com,,,5403 Pine Rd,Houston,PA,52999.0,14617-7630,2020-03-23,,30,2918.43,472,,19.0,,,premium
+322,jane_doe,customer322@example.com,,(555) 890-5633,7756 Second Ave,chicago,California,19746.0,68192-4405,2021-07-02,pending,6,2129.58,273,cash,73.0,,M,
+323,diana.prince,customer323@example.com,,(555) 539-7694,5539 Pine Rd,New York,CA,15055.0,59783-7766,2022-03-26,inactive,18,2249.32,65,cash,,,M,vip
+324,diana.prince,customer324@example.com,,,7140 Pine Rd,Phoenix,NY,,32242-9553,,inactive,43,640.39,590,,67.0,,O,vip
+325,Charlie Brown,user325@domain.com,555-3800,,314 Main St,la,New York,60722.0,,,pending,27,2648.01,253,,49.0,,,
+326,EVE WHITE,user326@domain.com,,(555) 468-5445,9076 Oak Ave,Chicago,NY,35656.0,28437-2521,2023-03-22,inactive,9,2917.15,148,credit_card,59.0,1964-01-16,O,premium
+327,frank-miller,customer327@example.com,,(555) 315-1158,8224 Second Ave,Los Angeles,California,31279.0,,2022-03-11,active,6,262.27,714,paypal,34.0,,O,premium
+328,Bob Wilson,customer328@example.com,,,6183 Main St,New York,IL,,,,inactive,6,560.54,947,credit_card,59.0,,F,
+329,Bob Wilson,customer329@example.com,,,2880 Oak Ave,Chicago,AZ,,96108-4867,,pending,22,4217.16,944,credit_card,,,M,new
+330,jane_doe,,,,9369 First St,NYC,TX,61168.0,92615-7232,,suspended,10,4908.38,459,credit_card,66.0,,F,vip
+331,diana.prince,customer331@example.com,,(555) 199-8030,9246 First St,NYC,PA,24210.0,86641-3670,2023-12-02,inactive,8,3535.8,833,paypal,75.0,,F,premium
+332,jane_doe,,,,1842 Oak Ave,NYC,CA,59057.0,29248-7778,,active,2,1624.63,290,credit_card,34.0,,O,vip
+333,Bob Wilson,customer333@example.com,,,5867 Pine Rd,Chicago,PA,,34652-7860,2021-10-14,active,45,1006.11,710,,,1979-01-01,,vip
+334,John Smith,customer334@example.com,,,8779 First St,Houston,AZ,75128.0,92301-1455,2021-07-16,active,34,4069.01,278,debit_card,41.0,1975-11-19,M,regular
+335,Grace Lee,customer335@example.com,,,2916 Pine Rd,NYC,IL,,,,inactive,46,1688.81,664,cash,61.0,1967-12-22,O,new
+336,frank-miller,customer336@example.com,,,4455 Main St,Chicago,AZ,,38303-3139,,active,18,4149.24,500,paypal,,1984-01-17,F,regular
+337,Grace Lee,customer337@example.com,555-8636,,5005 Second Ave,new_york,AZ,69746.0,13158-1500,,,7,4256.66,288,paypal,27.0,,,premium
+338,frank-miller,customer338@example.com,555-9134,(555) 737-3621,21 Main St,New York,CA,48251.0,,2023-09-09,inactive,7,3078.38,16,debit_card,,1978-07-23,M,new
+339,Grace Lee,customer339@example.com,,,9964 Pine Rd,new_york,AZ,,13471-7043,2021-06-24,inactive,16,2669.61,645,credit_card,50.0,1967-02-18,F,new
+340,jane_doe,user340@domain.com,,(555) 786-5468,1261 Main St,NYC,PA,64558.0,34057-4371,2023-12-09,suspended,35,3187.22,719,debit_card,,,M,vip
+341,diana.prince,customer341@example.com,,,5517 Pine Rd,New York,TX,49400.0,32532-6799,2023-11-23,pending,1,2410.06,713,cash,,1971-02-06,M,
+342,jane_doe,customer342@example.com,555-7731,,6710 Main St,Phoenix,IL,15320.0,,2021-06-23,pending,30,1619.56,297,,73.0,,,vip
+343,John Smith,,555-6421,(555) 106-2655,6131 Main St,New York,New York,88890.0,,2022-03-05,active,32,2005.06,801,credit_card,46.0,,M,vip
+344,Grace Lee,customer344@example.com,555-2394,(555) 593-9412,4890 Main St,Los Angeles,NY,,,2021-04-02,pending,11,4802.22,991,,,1997-11-14,F,new
+345,,customer345@example.com,555-1693,(555) 300-8316,2644 Oak Ave,chicago,New York,,,,active,25,474.7,893,debit_card,,1982-11-03,,regular
+346,Grace Lee,customer346@example.com,555-6204,(555) 148-8142,7977 Oak Ave,New York,California,,31629-5027,2020-08-25,pending,46,1989.12,55,debit_card,,,F,vip
+347,Bob Wilson,customer347@example.com,,(555) 941-9670,5406 Second Ave,philadelphia,California,28752.0,82283-6799,2022-05-14,,6,4556.76,351,paypal,20.0,1983-04-10,O,vip
+348,,customer348@example.com,,(555) 142-4854,1819 Oak Ave,philadelphia,AZ,26193.0,52242-9048,2020-08-25,active,20,1162.68,149,debit_card,,1983-04-12,F,
+349,jane_doe,customer349@example.com,,,3260 Oak Ave,chicago,IL,66239.0,90318-5387,2023-01-18,inactive,3,2262.74,947,cash,,,M,premium
+350,Bob Wilson,customer350@example.com,555-4791,,4950 Main St,la,TX,,21146-4558,2022-06-02,pending,4,4840.48,840,credit_card,70.0,,,new
+351,frank-miller,user351@domain.com,,,3141 Main St,new_york,AZ,35540.0,,2020-07-07,suspended,40,393.75,858,debit_card,37.0,,F,regular
+352,frank-miller,customer352@example.com,555-1387,,4936 First St,philadelphia,PA,,78244-4350,2022-10-12,inactive,22,1098.42,860,credit_card,,,M,premium
+353,John Smith,,555-1008,(555) 182-7899,8207 Second Ave,Los Angeles,PA,56212.0,,2020-05-08,active,25,2920.86,146,,,,F,new
+354,Bob Wilson,customer354@example.com,555-8180,(555) 722-4610,9962 Oak Ave,Los Angeles,NY,35847.0,71447-4440,2021-02-13,suspended,27,3753.89,922,debit_card,18.0,,,new
+355,diana.prince,user355@domain.com,555-8901,,6815 Main St,Houston,New York,24472.0,10618-5568,,suspended,12,1739.35,973,debit_card,,1962-04-23,F,new
+356,,customer356@example.com,,(555) 635-9716,9758 Main St,NYC,AZ,93149.0,,2023-10-02,pending,1,382.12,950,cash,29.0,,M,vip
+357,EVE WHITE,customer357@example.com,,,1689 Pine Rd,chicago,NY,20524.0,,2023-03-24,inactive,1,315.93,858,cash,38.0,,F,vip
+358,Grace Lee,customer358@example.com,555-8984,,9086 Second Ave,new_york,California,60767.0,,2020-08-01,active,42,2400.22,681,paypal,46.0,1978-08-25,M,new
+359,henry.davis123,customer359@example.com,555-3218,,500 Main St,Los Angeles,CA,,,2022-04-12,active,45,4735.04,38,debit_card,64.0,1998-06-10,O,regular
+360,Charlie Brown,customer360@example.com,555-2014,,8854 Pine Rd,Houston,California,67231.0,,2022-05-02,inactive,5,4981.77,177,debit_card,34.0,,M,premium
+361,diana.prince,customer361@example.com,,,4038 Main St,philadelphia,AZ,,84841-8548,2021-01-05,pending,1,165.16,69,debit_card,50.0,1981-08-08,O,new
+362,Grace Lee,customer362@example.com,555-9753,(555) 654-8642,6088 Oak Ave,Los Angeles,California,97384.0,,2020-05-26,pending,40,683.78,40,debit_card,38.0,1971-07-24,F,regular
+363,Charlie Brown,customer363@example.com,555-4388,,8284 Oak Ave,philadelphia,New York,,,2020-05-12,inactive,38,1148.37,457,debit_card,,1972-01-19,F,regular
+364,EVE WHITE,customer364@example.com,,(555) 233-3859,5884 Main St,Phoenix,AZ,65166.0,60816-1901,,inactive,35,2361.35,142,paypal,,,,premium
+365,Grace Lee,customer365@example.com,555-9298,,4992 Oak Ave,chicago,California,19685.0,55494-5032,2022-06-26,inactive,19,2306.18,601,debit_card,,1984-11-04,M,new
+366,John Smith,customer366@example.com,,(555) 341-1854,5428 First St,Houston,TX,,,,active,0,2117.98,680,debit_card,,,M,
+367,frank-miller,customer367@example.com,,(555) 314-2069,3468 Oak Ave,new_york,AZ,40573.0,70094-2478,,active,23,4063.1,314,credit_card,58.0,1967-06-24,F,vip
+368,Charlie Brown,customer368@example.com,,(555) 608-1344,2653 First St,new_york,IL,,97355-9098,2023-09-09,inactive,32,250.2,23,debit_card,67.0,1971-05-23,F,new
+369,henry.davis123,customer369@example.com,555-6936,(555) 754-6394,3772 First St,new_york,PA,77491.0,74207-6389,2020-10-22,active,41,964.9,462,,,,,vip
+370,EVE WHITE,customer370@example.com,,,9972 Pine Rd,NYC,PA,58243.0,87855-2427,2023-08-05,inactive,16,4292.53,693,debit_card,,,M,new
+371,henry.davis123,customer371@example.com,,,2249 First St,Chicago,PA,71669.0,77278-4882,2020-02-17,pending,2,2710.34,852,debit_card,53.0,,M,
+372,Grace Lee,customer372@example.com,,(555) 286-8056,488 Main St,Phoenix,IL,,86924-5827,2023-11-17,active,0,1769.93,314,paypal,,1982-07-04,,vip
+373,henry.davis123,customer373@example.com,,,3758 Second Ave,Houston,AZ,,30494-2183,,suspended,28,2076.36,974,cash,,,F,
+374,Bob Wilson,customer374@example.com,555-7437,(555) 186-8263,325 Oak Ave,New York,AZ,14532.0,59408-8582,2020-02-28,suspended,36,3660.56,874,,,1965-06-15,,vip
+375,Bob Wilson,customer375@example.com,555-9492,(555) 658-4672,4469 Oak Ave,la,CA,46013.0,34012-6197,2023-01-11,active,17,2732.76,944,,18.0,,,
+376,,alice.johnson@email.com,,(555) 394-8040,3027 Pine Rd,NYC,New York,20370.0,,,active,23,4062.7,178,credit_card,68.0,1986-11-20,O,premium
+377,EVE WHITE,customer377@example.com,555-1828,,9079 Pine Rd,Phoenix,PA,94494.0,64562-3960,,active,0,1530.63,432,,,,,vip
+378,Charlie Brown,customer378@example.com,,,4927 Pine Rd,Los Angeles,NY,13532.0,12152-9655,2022-06-22,inactive,2,2514.06,122,,,,M,vip
+379,,customer379@example.com,555-6442,,7201 Main St,NYC,NY,42722.0,99723-2833,2020-08-08,inactive,1,1437.15,430,credit_card,,1970-01-01,,new
+380,EVE WHITE,customer380@example.com,555-7785,,4004 Oak Ave,chicago,PA,70403.0,55969-1899,2023-06-22,suspended,17,3247.19,371,cash,61.0,,,vip
+381,jane_doe,customer381@example.com,555-5285,,88 First St,Houston,NY,74377.0,82025-7121,2023-07-15,,40,3023.11,200,,,1963-05-08,F,premium
+382,,customer382@example.com,,,1628 First St,Houston,IL,32292.0,,2022-08-01,inactive,35,4866.1,487,debit_card,,,O,premium
+383,Bob Wilson,user383@domain.com,,(555) 221-8049,9681 Second Ave,NYC,AZ,32827.0,,2021-05-08,inactive,7,2491.36,425,cash,,,,regular
+384,henry.davis123,customer384@example.com,555-3960,,9095 Oak Ave,Chicago,IL,27711.0,90885-6772,2021-10-27,active,4,122.74,481,debit_card,22.0,1964-10-21,,regular
+385,diana.prince,,555-7292,,1526 Second Ave,New York,PA,34564.0,10173-6330,2023-07-01,pending,39,2814.0,835,paypal,19.0,,F,vip
+386,jane_doe,customer386@example.com,,(555) 702-8142,2269 Second Ave,new_york,IL,11103.0,47679-8170,2023-12-06,pending,33,4533.2,245,credit_card,,,F,new
+387,John Smith,customer387@example.com,555-9806,(555) 836-7397,7953 Pine Rd,la,CA,,81261-2628,2022-03-01,suspended,24,2717.93,843,,,1979-01-03,F,
+388,diana.prince,customer388@example.com,555-6221,,6802 Pine Rd,chicago,IL,,32393-9031,,inactive,18,909.47,578,,50.0,,M,vip
+389,henry.davis123,user389@domain.com,,,1727 First St,chicago,PA,52242.0,,,active,34,639.53,851,,,1974-07-03,M,regular
+390,henry.davis123,customer390@example.com,,,4408 Oak Ave,chicago,New York,72688.0,,2023-08-28,inactive,22,3923.21,745,credit_card,75.0,1984-11-08,O,vip
+391,Grace Lee,customer391@example.com,555-9558,,4157 Second Ave,Chicago,TX,10098.0,41382-7079,2020-12-18,suspended,12,2380.0,848,debit_card,43.0,1990-05-28,M,regular
+392,Grace Lee,customer392@example.com,,(555) 121-9730,7913 Oak Ave,new_york,CA,61464.0,,2020-04-21,active,33,4206.56,200,paypal,31.0,,M,vip
+393,Grace Lee,customer393@example.com,,(555) 701-9902,1369 Oak Ave,Chicago,TX,,93690-9580,,inactive,10,938.94,249,paypal,58.0,1995-09-17,M,premium
+394,,customer394@example.com,,(555) 454-4894,2864 Main St,Houston,New York,49218.0,,2023-05-15,,2,3725.31,750,credit_card,26.0,,M,premium
+395,,customer395@example.com,555-7681,,1226 Second Ave,philadelphia,IL,37090.0,,2020-09-27,inactive,41,2265.18,760,paypal,20.0,1970-05-28,,premium
+396,frank-miller,customer396@example.com,555-3315,,4028 Oak Ave,NYC,PA,,74024-2804,2022-04-10,,0,1854.71,558,cash,38.0,,,premium
+397,,customer397@example.com,555-8136,,6807 Main St,NYC,AZ,,,2020-12-05,inactive,42,3603.78,88,,34.0,,M,premium
+398,frank-miller,,,,4791 Main St,new_york,TX,42468.0,52811-8579,,suspended,23,1903.97,218,paypal,51.0,,,vip
+399,jane_doe,,,,5716 Main St,Chicago,NY,42083.0,,2020-01-27,inactive,26,4956.75,491,,68.0,1981-08-15,M,
+400,Charlie Brown,customer400@example.com,,(555) 188-2667,9789 Main St,new_york,CA,99230.0,17903-3088,2023-01-05,,1,4911.91,176,debit_card,,1978-05-09,M,new
+401,henry.davis123,customer401@example.com,,(555) 640-4965,4281 Oak Ave,new_york,TX,79436.0,,2023-08-10,suspended,3,2518.52,625,paypal,53.0,1982-02-09,M,
+402,jane_doe,customer402@example.com,555-5133,(555) 535-1784,4820 Second Ave,la,CA,25372.0,40189-8905,2021-11-28,active,15,3328.55,534,cash,,,O,premium
+403,jane_doe,customer403@example.com,555-5876,,8005 Second Ave,Houston,PA,10778.0,42826-1389,2023-09-15,suspended,43,1181.15,535,debit_card,74.0,,F,
+404,Charlie Brown,customer404@example.com,,,6331 Main St,New York,New York,25784.0,37475-1924,2022-03-25,,46,747.64,533,credit_card,,,O,new
+405,Bob Wilson,customer405@example.com,555-8455,,9550 Main St,la,New York,50925.0,,,suspended,12,48.67,879,,57.0,1999-03-25,M,regular
+406,frank-miller,customer406@example.com,,(555) 634-4295,9161 Oak Ave,Phoenix,AZ,25413.0,65702-2174,2020-05-08,active,40,4949.53,931,cash,,,F,new
+407,Grace Lee,customer407@example.com,555-7479,,9505 Main St,New York,CA,,56565-9857,,pending,29,1368.11,215,debit_card,71.0,,,regular
+408,,customer408@example.com,555-9892,(555) 268-3479,6328 Pine Rd,la,New York,39574.0,,2022-05-11,active,10,1485.15,61,,,1967-05-14,,
+409,John Smith,customer409@example.com,,,9419 Pine Rd,NYC,New York,13562.0,95049-4246,,,7,918.6,145,paypal,,,M,
+410,EVE WHITE,customer410@example.com,,(555) 788-2351,4383 Oak Ave,New York,TX,14332.0,,2021-03-17,,8,4718.7,652,credit_card,26.0,1982-07-27,M,regular
+411,Charlie Brown,customer411@example.com,,(555) 585-3900,2783 Second Ave,Houston,CA,,,2023-10-10,,2,4673.33,588,paypal,,1961-12-18,,
+412,,user412@domain.com,,(555) 916-9174,1569 Main St,Chicago,TX,,73351-7726,,inactive,6,4269.92,542,paypal,41.0,,F,vip
+413,jane_doe,customer413@example.com,,(555) 832-5119,6313 Oak Ave,Chicago,AZ,34521.0,42431-4256,2023-02-22,pending,11,392.17,432,,21.0,,,
+414,diana.prince,customer414@example.com,,,9830 Pine Rd,philadelphia,PA,,72425-1301,2023-12-19,pending,46,3243.73,971,debit_card,62.0,,F,new
+415,EVE WHITE,user415@domain.com,555-4465,(555) 635-4462,6766 Second Ave,NYC,TX,,,2022-09-01,suspended,41,2410.85,111,,70.0,1968-12-05,F,
+416,frank-miller,user416@domain.com,555-6284,,2222 First St,Los Angeles,AZ,89752.0,59674-6220,,,34,2360.88,930,credit_card,33.0,1967-11-07,F,new
+417,Bob Wilson,customer417@example.com,555-1426,,6739 Oak Ave,New York,IL,90103.0,42532-6046,2021-12-15,pending,2,3562.27,83,cash,36.0,,M,vip
+418,Charlie Brown,customer418@example.com,,,1833 Oak Ave,New York,New York,18974.0,,2022-09-25,inactive,12,3869.36,62,paypal,53.0,,F,
+419,frank-miller,customer419@example.com,,(555) 523-8210,9913 Second Ave,NYC,California,,75324-4305,2020-04-20,pending,32,2357.46,748,cash,59.0,,F,
+420,John Smith,customer420@example.com,,,9979 Oak Ave,la,PA,86726.0,44505-5396,2020-10-20,pending,18,4906.31,926,cash,,,F,premium
+421,Grace Lee,customer421@example.com,,(555) 423-7853,9385 Main St,la,New York,81006.0,55935-1012,,inactive,26,1403.62,58,debit_card,18.0,,,vip
+422,,customer422@example.com,,(555) 546-2062,8506 Second Ave,New York,AZ,57533.0,14717-7058,2022-04-19,suspended,7,1839.73,999,,29.0,,,regular
+423,EVE WHITE,customer423@example.com,,,8465 Second Ave,Chicago,AZ,58311.0,94748-2959,,inactive,20,4886.41,470,cash,,,F,new
+424,frank-miller,customer424@example.com,,(555) 188-1154,4188 First St,Houston,AZ,41651.0,,2021-03-15,active,26,1982.24,594,cash,71.0,,M,vip
+425,John Smith,user425@domain.com,,,7507 Oak Ave,new_york,TX,41321.0,,2022-02-09,active,45,71.67,317,cash,65.0,1983-10-24,,
+426,frank-miller,customer426@example.com,,(555) 394-1451,2628 Second Ave,new_york,PA,69908.0,18059-7021,,suspended,19,1924.97,460,cash,,,F,premium
+427,henry.davis123,customer427@example.com,,(555) 500-9217,5211 Oak Ave,philadelphia,TX,,,2020-08-01,suspended,43,1453.33,396,cash,29.0,,M,vip
+428,,customer428@example.com,555-2096,,7999 First St,new_york,TX,73467.0,75403-3051,2022-12-11,inactive,40,4497.91,596,,55.0,,F,premium
+429,Grace Lee,customer429@example.com,,,8694 Second Ave,NYC,IL,14687.0,,2023-12-27,inactive,19,3386.09,162,debit_card,23.0,1998-12-01,M,premium
+430,Bob Wilson,customer430@example.com,,(555) 642-5544,1564 Main St,Chicago,New York,,,2022-05-12,inactive,46,4346.79,556,cash,,,,vip
+431,EVE WHITE,user431@domain.com,555-9526,,6281 Pine Rd,Phoenix,CA,99051.0,92867-7622,2020-08-21,active,0,2078.78,741,paypal,,,M,vip
+432,henry.davis123,customer432@example.com,,(555) 215-2916,4559 Pine Rd,chicago,PA,40067.0,,2023-02-16,active,29,4147.26,416,paypal,,1967-09-01,F,premium
+433,Charlie Brown,customer433@example.com,555-2691,,4686 Second Ave,philadelphia,CA,40821.0,,2021-07-10,pending,22,2645.28,871,credit_card,75.0,1972-09-28,F,new
+434,diana.prince,customer434@example.com,,(555) 719-1666,200 Main St,NYC,New York,59632.0,,2023-11-17,pending,36,74.51,778,cash,,,F,regular
+435,Charlie Brown,customer435@example.com,,,9048 Main St,Houston,IL,,37418-5344,2023-12-21,,27,3185.54,317,credit_card,77.0,,F,vip
+436,diana.prince,customer436@example.com,555-3241,(555) 912-9547,5928 Main St,Houston,New York,12635.0,87140-6121,,active,27,1046.9,168,,,,O,
+437,frank-miller,customer437@example.com,555-2739,(555) 399-6014,4945 Second Ave,Phoenix,California,25755.0,,2021-06-05,pending,31,1725.53,74,,,1971-04-17,,
+438,EVE WHITE,customer438@example.com,,,9111 Pine Rd,new_york,AZ,34131.0,,,inactive,28,2622.38,984,,24.0,1975-04-26,M,new
+439,Charlie Brown,customer439@example.com,,(555) 687-1071,4350 Oak Ave,Los Angeles,New York,,,2022-08-10,inactive,44,1562.2,816,cash,,1972-10-04,F,regular
+440,EVE WHITE,user440@domain.com,,,711 First St,Phoenix,CA,77994.0,15296-8654,2020-10-24,inactive,38,1203.78,628,debit_card,,1993-07-05,O,vip
+441,John Smith,customer441@example.com,,(555) 235-6121,5560 Pine Rd,Chicago,New York,15705.0,65283-2910,2022-07-11,active,1,448.72,109,,75.0,,O,premium
+442,diana.prince,customer442@example.com,,(555) 800-8466,8131 Main St,New York,New York,39445.0,,,inactive,17,276.43,525,paypal,22.0,,O,regular
+443,Bob Wilson,,555-9125,,9581 Main St,Houston,NY,17716.0,51816-7773,,inactive,19,1174.3,822,debit_card,47.0,,,new
+444,,customer444@example.com,555-2722,(555) 160-2918,1773 Main St,NYC,NY,52231.0,46246-4123,2023-09-09,pending,49,1245.28,800,paypal,,,F,
+445,frank-miller,customer445@example.com,555-3541,(555) 796-9832,6021 Main St,chicago,IL,40619.0,,,suspended,7,3815.51,791,,,1987-06-10,,new
+446,frank-miller,customer446@example.com,555-5594,,6306 Pine Rd,NYC,AZ,,59229-5472,2023-05-24,inactive,22,4641.33,315,cash,,,F,
+447,John Smith,customer447@example.com,,,7700 Main St,philadelphia,IL,73514.0,64935-8417,2020-03-15,inactive,18,4524.13,574,debit_card,,,,premium
+448,Charlie Brown,customer448@example.com,,,7896 First St,Phoenix,NY,,,,suspended,47,426.47,783,paypal,43.0,1994-02-21,M,premium
+449,EVE WHITE,customer449@example.com,,(555) 229-4161,1925 Main St,Chicago,AZ,33168.0,,2023-11-16,pending,35,2061.19,977,credit_card,,,M,vip
+450,,customer450@example.com,,(555) 725-5002,2298 Main St,chicago,California,47688.0,83910-7913,2021-11-03,inactive,7,325.21,381,,,,,premium
+451,Charlie Brown,customer451@example.com,,,7786 Main St,New York,NY,84095.0,83449-9866,,active,34,3573.84,461,,44.0,,F,
+452,frank-miller,customer452@example.com,,,2630 Second Ave,Houston,AZ,68568.0,,2020-04-07,active,32,3661.88,200,cash,69.0,,O,regular
+453,EVE WHITE,customer453@example.com,,(555) 683-7606,833 First St,new_york,New York,59192.0,15989-3275,2021-04-22,,38,3841.56,2,,69.0,1963-07-22,M,premium
+454,henry.davis123,user454@domain.com,,(555) 476-4788,5636 First St,Houston,IL,,90862-1419,2020-09-10,pending,8,3183.19,508,credit_card,40.0,,,premium
+455,Grace Lee,customer455@example.com,,,8147 Oak Ave,Chicago,PA,,,2020-08-23,suspended,17,187.7,481,debit_card,,,,
+456,diana.prince,,,,6798 Main St,Phoenix,PA,73462.0,97976-4196,2021-02-05,inactive,46,2854.37,882,paypal,59.0,,M,premium
+457,EVE WHITE,customer457@example.com,,(555) 208-7489,7448 Main St,new_york,TX,15872.0,64456-4760,2021-04-24,inactive,46,793.6,56,paypal,75.0,1967-08-17,M,regular
+458,frank-miller,customer458@example.com,555-8387,,2742 Second Ave,new_york,PA,46182.0,58165-4842,2023-09-16,inactive,1,1728.29,710,,28.0,1960-02-14,F,
+459,Grace Lee,,,(555) 261-4374,5197 Oak Ave,Chicago,New York,16058.0,56243-1686,2023-09-04,,48,20.09,531,credit_card,,,F,premium
+460,Charlie Brown,customer460@example.com,,,439 Pine Rd,New York,PA,,,2020-12-17,inactive,11,1862.19,35,,,1973-11-16,,new
+461,,customer461@example.com,,,7573 Second Ave,Houston,California,,,2023-12-10,active,24,1516.55,172,credit_card,41.0,1967-10-11,F,regular
+462,henry.davis123,customer462@example.com,,,3385 First St,la,IL,43907.0,77136-8765,2023-10-18,,15,4363.39,875,debit_card,,,F,vip
+463,diana.prince,user463@domain.com,,(555) 276-6287,4277 Pine Rd,chicago,New York,99566.0,15695-1757,,inactive,10,2612.89,100,paypal,,1965-05-08,,regular
+464,EVE WHITE,customer464@example.com,,(555) 766-6239,6692 First St,new_york,California,46187.0,,2020-07-09,active,32,211.45,505,debit_card,25.0,,,vip
+465,jane_doe,customer465@example.com,,(555) 984-7376,4254 Oak Ave,chicago,New York,,97771-4255,2021-01-10,inactive,36,4987.91,685,,44.0,1969-03-10,O,regular
+466,henry.davis123,,,(555) 759-2748,4449 First St,Houston,California,54445.0,,2023-08-12,active,31,3462.31,103,paypal,25.0,,,vip
+467,frank-miller,,,,1688 Second Ave,Chicago,TX,,62748-7311,2023-04-03,inactive,30,4057.03,227,,63.0,1960-11-01,F,regular
+468,John Smith,customer468@example.com,555-8642,,2525 Pine Rd,new_york,NY,84780.0,52969-1791,2021-09-25,active,11,1634.88,165,paypal,55.0,,,premium
+469,henry.davis123,user469@domain.com,555-2054,,1934 Second Ave,Phoenix,IL,58426.0,62298-4289,2022-10-20,active,30,1970.12,737,cash,75.0,,M,regular
+470,John Smith,customer470@example.com,,(555) 910-7734,8550 Second Ave,Houston,AZ,21920.0,14040-7278,2020-12-16,inactive,32,760.6,991,credit_card,18.0,1971-08-17,M,
+471,henry.davis123,customer471@example.com,555-5923,,2131 Second Ave,New York,California,94295.0,24976-6359,2023-09-24,,14,1837.43,720,paypal,,,,premium
+472,EVE WHITE,customer472@example.com,555-7562,(555) 368-9028,3822 Second Ave,Phoenix,New York,68845.0,,2020-05-09,inactive,36,1139.97,575,,76.0,,O,
+473,John Smith,customer473@example.com,555-6810,(555) 808-3804,3986 Main St,New York,PA,59474.0,,2021-06-24,active,40,1091.6,781,credit_card,,,M,new
+474,Grace Lee,customer474@example.com,,(555) 326-1925,3597 First St,Houston,New York,,42853-4806,2022-08-05,,32,37.48,490,cash,,,F,vip
+475,jane_doe,customer475@example.com,555-2945,,7125 Main St,New York,NY,29854.0,,,inactive,25,303.08,219,debit_card,,1961-08-27,O,
+476,John Smith,customer476@example.com,,,2619 Pine Rd,Houston,California,95756.0,,2021-01-21,active,31,508.47,290,credit_card,35.0,1999-07-03,,regular
+477,Bob Wilson,customer477@example.com,555-5378,,7190 First St,NYC,New York,35666.0,54133-1044,2022-04-13,active,44,2493.25,765,credit_card,45.0,1986-05-21,,regular
+478,Bob Wilson,customer478@example.com,555-2540,,7306 Oak Ave,philadelphia,New York,,20504-2906,,active,7,785.43,121,debit_card,,1970-11-04,M,new
+479,EVE WHITE,customer479@example.com,555-5349,(555) 377-9964,1336 Oak Ave,New York,PA,29695.0,,,active,21,410.14,195,cash,,1976-05-24,M,new
+480,Grace Lee,customer480@example.com,555-9192,(555) 402-7534,1132 Pine Rd,NYC,CA,47501.0,64020-3255,2021-10-12,inactive,6,4503.98,796,debit_card,,1966-03-17,O,vip
+481,,customer481@example.com,555-8232,(555) 194-2516,7779 Second Ave,New York,PA,76925.0,66402-4655,2022-06-01,,38,2449.64,722,debit_card,22.0,1991-07-10,F,new
+482,Charlie Brown,customer482@example.com,555-9369,,5918 Main St,NYC,New York,99783.0,,2022-07-25,active,15,2667.39,716,paypal,41.0,,,
+483,,customer483@example.com,,(555) 774-4787,6898 Main St,chicago,NY,,,2021-05-06,,13,1473.68,223,,73.0,,O,vip
+484,Charlie Brown,,,,5927 Main St,chicago,IL,,42631-2381,,pending,7,2081.62,47,paypal,,,F,regular
+485,henry.davis123,user485@domain.com,,,6608 First St,new_york,IL,56139.0,28107-9837,2020-10-06,inactive,7,4079.48,490,credit_card,21.0,1962-05-08,,new
+486,henry.davis123,user486@domain.com,555-6471,,8315 Second Ave,NYC,IL,23010.0,16344-8185,2020-03-28,suspended,34,4127.4,319,paypal,,1987-12-25,F,vip
+487,Grace Lee,customer487@example.com,555-4495,,4506 Second Ave,Los Angeles,NY,,91998-6736,2022-09-03,inactive,13,2582.8,154,cash,58.0,1992-03-01,F,new
+488,EVE WHITE,customer488@example.com,,(555) 278-4709,9969 Oak Ave,Houston,CA,,,2020-10-02,active,13,4358.45,81,credit_card,39.0,,O,regular
+489,Charlie Brown,customer489@example.com,555-2523,,8031 Second Ave,philadelphia,CA,46621.0,,2023-03-15,suspended,35,3207.5,222,,59.0,,,vip
+490,John Smith,user490@domain.com,555-5609,,6462 Second Ave,philadelphia,NY,40242.0,,2022-07-03,active,12,2967.83,879,credit_card,,,,vip
+491,henry.davis123,customer491@example.com,,,9969 Second Ave,New York,California,45524.0,43261-5484,2023-09-11,active,5,4423.73,47,debit_card,49.0,1977-12-01,,premium
+492,diana.prince,,,,7696 First St,la,IL,85852.0,19639-7247,2022-06-21,,6,637.8,675,cash,44.0,1997-09-14,,
+493,henry.davis123,customer493@example.com,,(555) 317-1067,6512 Pine Rd,Phoenix,IL,29734.0,74186-8545,,pending,13,4507.69,650,cash,55.0,,,
+494,Charlie Brown,customer494@example.com,,,4965 Second Ave,la,IL,60861.0,54659-2097,2022-09-13,suspended,18,2211.59,900,paypal,21.0,1962-03-02,,new
+495,Grace Lee,customer495@example.com,555-9141,(555) 165-7015,2955 Oak Ave,philadelphia,AZ,87572.0,,2021-02-25,active,0,791.41,436,credit_card,38.0,,,vip
+496,frank-miller,customer496@example.com,,(555) 715-8553,5714 Oak Ave,la,California,92832.0,78039-8272,2021-06-08,active,41,2312.41,282,paypal,54.0,,O,
+497,Bob Wilson,user497@domain.com,,(555) 442-7685,1628 Second Ave,chicago,AZ,11889.0,64738-1091,,inactive,3,3592.99,123,credit_card,,,,vip
+498,John Smith,customer498@example.com,555-7335,,9823 First St,Houston,CA,,,2022-04-17,pending,18,4780.1,258,credit_card,56.0,,O,regular
+499,Charlie Brown,customer499@example.com,,(555) 280-5465,8488 Main St,NYC,AZ,61506.0,19061-9680,,inactive,39,1779.99,956,debit_card,,,M,premium
+500,jane_doe,user500@domain.com,,,3558 Oak Ave,New York,IL,28197.0,87839-4667,2021-07-09,pending,0,4619.81,579,debit_card,71.0,,M,premium
