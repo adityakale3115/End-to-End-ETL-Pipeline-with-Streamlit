@@ -11,32 +11,6 @@ You're a Data Engineering Intern at a fictional company that acquired multiple e
 - Create a Streamlit dashboard to explore key business insights and metrics
 - (Optional) Use AI techniques to reconcile schema differences
 
-## Folder Structure
-
-quantifai-project/
-├── data/ # Raw datasets (JSON, CSV)
-│ ├── customers_messy_data.json
-│ ├── products_inconsistent_data.json
-│ └── orders_unstructured_data.csv
-│
-├── database/
-│ └── quantifai.db # SQLite database with cleaned data
-│
-├── notebooks/
-│ └── data_cleaning.ipynb # Jupyter notebook with data exploration + logic
-│
-├── scripts/ # Data transformation logic
-│ ├── transform_customer.py
-│ ├── transform_order.py
-│ └── transform_product.py
-│
-├── streamlit_app/
-│ └── app.py # Interactive dashboard
-│
-├── load_to_sqlite.py # Script to load cleaned data into SQLite
-├── requirements.txt # Required libraries
-└── README.md
-
 
 ## Setup Instructions
 
@@ -51,7 +25,9 @@ pip install -r requirements.txt
 python load_to_sqlite.py
 
 4. Launch The Dashboard
-streamlit run streamlit_app/app.py
+   ```bash
+   cd streamlit_app
+   streamlit run app.py
 
 
 Features => 
@@ -74,6 +50,3 @@ numpy
 streamlit
 plotly
 
-
-Install with
-pip install -r requirements.txt
