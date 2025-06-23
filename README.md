@@ -16,7 +16,7 @@ You're a Data Engineering Intern at a fictional company that acquired multiple e
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/quantifai-project.git
+   git clone https://github.com/adityakale3115/Quantifai-Assignment
    cd quantifai-project
 2. Install Dependencies
 pip install -r requirements.txt
