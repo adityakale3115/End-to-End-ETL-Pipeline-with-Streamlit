@@ -1,52 +1,48 @@
-# Quantifai Data Engineering Challenge
+# Retail Data ETL & Dashboard
 
-This repository contains my submission for the Quantifai Data & AI Engineering Internship (Take-Home Assignment). The goal of this project is to build an end-to-end ETL pipeline and interactive dashboard from messy e-commerce data.
+A complete end-to-end ETL pipeline that processes messy e-commerce datasets, stores the cleaned data in a relational database (SQLite), and presents insights through an interactive Streamlit dashboard powered by Plotly.
 
-## Problem Statement
+---
 
-You're a Data Engineering Intern at a fictional company that acquired multiple e-commerce platforms with inconsistent, messy datasets. Your mission:
+## Features
 
-- Clean and normalize raw data from various formats (CSV, JSON)
-- Build an ETL pipeline to transform and load the data into a relational database
-- Create a Streamlit dashboard to explore key business insights and metrics
-- (Optional) Use AI techniques to reconcile schema differences
+- Clean and transform raw e-commerce product & customer datasets
+- Handle missing values, remove duplicates, normalize fields
+- Load structured data into SQLite database
+- Visualize data insights with Streamlit + Plotly
+- Modular ETL pipeline using Python (Pandas, NumPy)
 
+---
 
-## Setup Instructions
+## Technologies Used
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/adityakale3115/Quantifai-Assignment
-   cd quantifai-project
-2. Install Dependencies
-pip install -r requirements.txt
+- Python (Pandas, NumPy)
+- SQLite (via `sqlite3`)
+- Streamlit for dashboard UI
+- Plotly for interactive visualizations
 
-3. Run The Pipeline 
-python load_to_sqlite.py
+---
 
-4. Launch The Dashboard
-   ```bash
-   cd streamlit_app
-   streamlit run app.py
+## How to Run Locally
 
+### 1. Clone the Repository
+    ```bash
+    git clone https://github.com/adityakale3115/retail-etl-dashboard.git
+    cd retail-etl-dashboard
+### 2. Install Requirements
+      ```bash
+      pip install -r requirements.txt
 
-Features => 
+### 3. Run ETL Pipeline
+      ```bash
+      python etl/extract.py
+      python etl/transform.py
+      python etl/load.py
 
-Complete ETL process using Python and Pandas
-Data cleaning with handling of inconsistencies, nulls, and format mismatches
-Normalized schema stored in SQLite
-Interactive Streamlit dashboard for:
-Customer search, filter, and segment analysis
-Orders summary and metrics
-Product overview and order trends
-Segment and gender visualizations
-Data export as CSV
+### 4. Launch Dashboard
+      ```bash
+      streamlit run dashboard/app.py
 
+### Dashboard Overview
 
-Requirements => 
-
-pandas
-numpy
-streamlit
-plotly
-
+![Overview](assets/ss.png)
