@@ -45,4 +45,4 @@ A complete end-to-end ETL pipeline that processes messy e-commerce datasets, sto
 
 ### Dashboard Overview
 
-![Overview](assets/ss.png)
+![Overview](asset/ss.png)
